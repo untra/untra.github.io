@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns:og="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Usage Instruction | Samuel Volin</title>
+        
+          <meta name="author" content="untra">
+        
+        <meta name="title" content="Usage Instruction" >
+        <link rel="icon" type="image/png" href="https://untra.github.io/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Usage Instruction" />
+<meta name="twitter:title" content="Usage Instruction" />
+
+
+<meta name="description" content="Getting Started
+
+">
+<meta property="og:description" content="Getting Started
+
+" />
+<meta name="twitter:description" content="Getting Started
+
+" />
+<meta property="og:type" content="article" />
+<link rel="canonical" href="/2014/09/10/usage.html" />
+
+<meta property="og:image" content="/sharer.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="/sharer.png" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    </head>
+    <body class="wrap">
+      <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <header>
+  <h1 class="site-title"><a href="/">Samuel Volin</a></h1>
+  <h2 class="site-description">Programmer, Mathematician, <span id="narcissism"></span></h1>
+  <nav class="main-nav">
+    <a href="#" class="opener show-on-mobiles">...</a>
+    <div class="clear-opener show-on-mobiles"></div>
+    <div class="grid">
+      <ul>
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="/about.html"><i class="fa fa-info-circle"></i>About</a></li>
+        <li><a href="https://github.com/untra"><i class="fa fa-github-square"></i>Github</a></li>
+        <li><a href="https://untra.github.io/polyglot"><i class="fa fa-comment-o"></i>Polyglot</a></li>
+        <li><a href="http://cufcq.com"><i class="fa fa-area-chart"></i>CUFCQ</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+      <section class="content">
+        <div id="home" class="grid post">
+<div class="unit whole">
+<article>
+	<header>
+		<h1>Usage Instruction</h1>
+		<p class="meta">
+			<time class="timeago postlist-meta" datetime="2014-09-10"><i class="fa fa-calendar"></i>September 10, 2014</time>
+			<a class="sharer facebook" href="#" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-facebook-f"></i></a>
+			
+				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
+			
+		</p>
+	</header>
+	<section>
+		
+		<h2 id="getting-started">Getting Started</h2>
+
+<p>(Assuming you know what Jekyll and Github pages are.)</p>
+
+<ul>
+  <li>
+    <p>Download this theme’s zip file from <a href="http://goo.gl/iC85jv">here</a> or clone the repository using <code>git clone https://github.com/brijeshb42/bitwiser.git</code>. If you are cloning, then make sure to delete the <code>gh-pages</code> branch as it includes the files for the theme website.</p>
+  </li>
+  <li>
+    <p>Install <code>ruby</code> and then do <code>gem install jekyll</code>. This theme uses the latest <code>jekyll</code> version. So if you already have it installed, then upgrade it.</p>
+  </li>
+  <li>
+    <p><code>_config.yml</code> describes all the variables which you are required to set. The description begins with double hash(<code>##</code>). And the value to be set is commented below it using <code>#</code>.</p>
+  </li>
+  <li>Edit <code>_config.yml</code> according to your requirements.
+    <ul>
+      <li><code>name</code> : <code>Your website name</code></li>
+      <li><code>disqus</code> : <code>disqusForumName</code>
+  If this value is present, disqus commenting will be automatically added to all your blog posts.</li>
+      <li><code>ga_id</code> : <code>googleAnalyticsID</code>
+  If this value is present, google analytics will be added to your website/blog.
+  If <code>ga_id</code> is present, make sure that <code>ga_domain</code> is also present.</li>
+      <li><code>description</code>: <code>A short description of your website to be included in meta tag of your homepage</code></li>
+      <li><code>keywords</code> : <code>a few frequently used keywords on your site</code></li>
+      <li><code>links</code> : This vriable has a few commonly used social networks’ links
+        <ul>
+          <li><code>facebook</code>: <code>facebookId</code></li>
+          <li><code>twitter</code> : <code>twitterHandle</code></li>
+          <li><code>email</code>: <code>email@example.com</code></li>
+          <li><code>github</code>: <code>githubUsername</code></li>
+        </ul>
+      </li>
+      <li><code>about_image</code>: This is a new variable introduced. If defined, make sure the image is present in <code>img</code> directory. If not defined, a provided placeholder image is used. ** If github link is provided in <code>links</code> variable, then the github profile picture will be used if <code>about_image</code> is not defined.</li>
+    </ul>
+  </li>
+  <li>
+    <p>After setting the values in <code>_config.yml</code>, you can start adding posts in the <code>_posts</code> directory. Remove the example posts from the directory. The name of files in this directory should be according to specifications by <code>jekyll</code>, i.e, <code>YYYY-MM-DD-your-post-title.md</code>. <strong>Note</strong> that the file name extenion can be anything from md, markdown, mkd, textile or html.</p>
+  </li>
+  <li>
+    <p>Replace the image files <code>favicon.png</code> and <code>sharer.png</code> with images of your own.</p>
+  </li>
+  <li>
+    <p>Test the site on local machine using <code>jekyll serve</code> in the theme directory.</p>
+  </li>
+  <li>
+    <p>If all works well, <code>git push</code> your changes to your github pages repository <code>https://github.com/githubUserName/githubUserName.github.io</code></p>
+  </li>
+  <li>
+    <p>Then visit your blog at <a href="http://githubUserName.github.io">http://githubUserName.github.io</a>.</p>
+  </li>
+  <li>
+    <p>If you want to use a custom domain, then edit the <code>CNAME</code> file and add your own domain <code>example.com</code>. Make sure your domain points to github ip address.</p>
+  </li>
+  <li>
+    <script type="math/tex; mode=display">a^2 + b^2 = c^2</script>
+  </li>
+</ul>
+
+	</section>
+	
+</article>
+</div>
+</div>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+      </section>
+      <footer class="grid site-footer">
+        <p>&copy;&nbsp;Samuel Volin</p>
+        <p><small>Powered by <a href="http://jekyllrb.com" target="_blank"><em>Jekyll</em></a> using <a href="http://bitwiser.in/bitwiser/" target="_blank"><em>Bitwiser</em></a> theme.</small></p>
+      </footer>
+      
+      <script src="/js/script.js"></script>
+    </body>
+</html>
