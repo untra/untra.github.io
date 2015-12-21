@@ -24,7 +24,7 @@ Is only true when $$ n=1 $$ This sum is [Zeno's Dichotomy Paradox](https://www.y
 
 $$ \sum_{n=0}^{\infty} \frac{1}{2^n} = 2 $$
 
-So of course it's context sensitive. And the job was to count up to 10, so who cares what number we start at, right?
+So of course it's context sensitive. And the job was to count up to ten, so who cares what number we start at, right?
 
 $$ 9, 10 $$
 

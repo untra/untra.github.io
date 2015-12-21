@@ -19,7 +19,7 @@ github_username:  untra
 markdown: kramdown
 
 # gems
-gems: [jekyll-paginate, jemoji]
+gems: [jekyll-paginate]
 ##syntax highlighter. change it to pygments
 highlighter: pygments
 sass:
