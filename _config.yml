@@ -17,6 +17,7 @@ github_username:  untra
 
 # Build settings
 markdown: kramdown
+
 # gems
 gems: [jekyll-paginate, jemoji]
 ##syntax highlighter. change it to pygments
@@ -26,6 +27,9 @@ sass:
   style: :compressed
 paginate: 5
 paginate_path: "page:num"
+
+kramdown:
+  syntax_highlighter: pygments
 
 ##define this for disqus comment support
 #disqus: forumname
