@@ -3,7 +3,6 @@ layout: post
 title:  "The Bad Mathematics of Psychometrics"
 date:   2015-12-28 17:00:00
 mathjax: True
-categories: psychometrics, myers-briggs, tracom, social styles, badmath
 ---
 
 ## Are you Driving, Amiable, Analytical or Expressive?
@@ -16,7 +15,7 @@ At best they are fun surveys you can take in between clicking through [buzzfeed]
 
 It's no secret that the Myers-Briggs test is entirely entertainment. Participants are put into one of two states for four separate categories, making $$ 2^4 = 16$$ different types people can fall into. All of the results have mostly positive connotations. This is a small enough pool of different "types" people can get behind. It's like horoscopes for the slightly less gullible.
 
-We took a different psychometric test in our projects class. We took the [Social Style](http://www.tracomcorp.com/solutions/by-element/social-style/model/) test, a product of the TRACOM Group, a social sciences company based out of Centennial, Colorado. It was presented to us like something we were going to encounter immediately after entering the workforce. For clarification, I would not work for a company that made me take a personality test. To me, a personality test says a manager have run out of ideas, and that they are willing to trust a quick-fix hocus-pocus approach than actually get to know their employees.
+We took a different psychometric test in our projects class. We took the [Social Style](http://www.tracomcorp.com/solutions/by-element/social-style/model/) test, a product of the TRACOM Group, a social sciences company based out of Centennial, Colorado. It was presented to us (the students soon-to-be graduates soon-to-be code monkies) like something we prepare for when entering the workforce. A personality test!
 
 What got under my skin with this test was how your score were calculated. An example of the test is [here](https://www.cs.colorado.edu/~ksiek/Teaching/GEEN1400/F09/Class-Docs/Week2-SocialStyles.pdf). Basically, you answer 15 questions for two sections: Assertiveness and Responsiveness. Each question you give an integer score from 1 to 4. You then sum up all of your assertiveness scores and all of your responsiveness scores, divide each by 15, and then plot yourself on a 2D graph. If you're curious, I scored a $$(1.5,2.1)$$ on the social styles test.
 
@@ -38,4 +37,6 @@ A good mathematician will look at this test and immediately see that it is skewe
 
 As we get up closer to 30 and 31, there will be more ways to take the test and answer it in a way that will give us that score. The result is most participants will land in the center if you take a random enough sample. And as we aim to score higher, with 58, 59, and 60 scores, we wind up with less ways of taking the test to give us that score.
 
-I think personality tests and psychometrics are pseudoscience. But the Social Styles test is more than (less than?) just pseudoscience; it is pseudoscience that tells us nothing interesting about us. What makes the Social Styles test interesting is the quadrants people land in, labeling them as *Driving, Amiable, Analytical or Expressive*. The bell curve is baked into the test, and as a result most people are inclined to score in the center of the plot. That tells us nothing interesting.
+I think personality tests and psychometrics are pseudoscience. But the Social Styles test has a bell curve baked into it. Trying to analyze large-scale results of this test requires fighting a skew that puts most candidates towards a central score. If the tests participants answered randomly, the results would be exactly the same. Bad mathematics were baked into this test.
+
+What makes the Social Styles test interesting is the quadrants people land in, labeling them as *Driving, Amiable, Analytical or Expressive*. Because a bell curve is baked into the test, the results of the test are skewed. When you try to show a scatterplot of peoples scores, it will come up meaningless.
