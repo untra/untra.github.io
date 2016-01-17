@@ -179,6 +179,8 @@ $$
 * If $$A \mathbf{v} = \gamma \mathbf{v}$$ holds for some vector $$\mathbf{v} \in \mathbb{R}^n$$ and scalar $$\gamma \in \mathbb{R}$$, then we call $$\mathbf{v}$$ a *Eigenvector* of $$A$$, and we call $$\gamma$$ an *Eigenvalue* of $$A$$.
   * The set of Eigenvectors of $$A$$, corresponding to their eigenvalues, form a linear subspace of $$\mathbb{R}^n$$
   * Every matrix $$A \in \mathbb{R}^{n \times n}$$ has $$n$$ eigenvalues (counted with multiplicity). Eigenvalues may be complex.
+  * The sum of the $$n$$ eigenvalues of $$A$$ is the same as the *Trace* of $$A$$ (that is, the sum of the diagonal elements of $$A$$).
+  * The product of the $$n$$ eigenvalues of $$A$$ is the determinate of $$A$$
   * The roots of the *Characteristic Equation* $$\det(A-\lambda I)$$ are the eigenvalues of A.
   * The norm of A is at least as large as the largest absolute value of it's eigenvalues.
   * The eigenvalues of $$A^{-1}$$ are the inverses of the eigenvalues of $$A$$
@@ -202,14 +204,21 @@ $$
   * Even if $$X$$ is a non-square matrix, $$X^T X$$ and $$X X^T$$ are square symmetric matrices.
     * If the columns of $$X$$ are linearly independent, then $$X^T X$$ is nonsingular.
     * If the columns of $$X^T$$ are linearly independent, then $$X X^T$$ is nonsingular.
+    * The eigenvalues of $$X^T X$$ and $$X X^T$$ are the same, and are non-negative.
 * We call $$A$$ a *Positive Definite* matrix if and only if for all $$\mathbf{v} \in \mathbb{R}^n$$, $$ \mathbf{v} \cdot A \mathbf{v} > 0$$. We represent this with $$A \succ 0$$
   * Respectively, we call $$A$$ a *Negative Definite* matrix, and $$A \prec 0$$ if and only if $$ \mathbf{v} \cdot A \mathbf{v} < 0$$
   * Respectively, we call $$A$$ a *Negative Semidefinite* matrix, and $$A \preceq 0$$ if and only if $$ \mathbf{v} \cdot A \mathbf{v} \mathbf{\leq} 0$$
   * Respectively, we call $$A$$ a *Positive Semidefinite* matrix if, and $$A \succeq 0$$ and only if $$ \mathbf{v} \cdot A \mathbf{v} \mathbf{\geq} 0$$
   * $$A$$ is positive definite if and only if it has positive eigenvalues
     * Respectively $$A$$ is negative definite if and only if it has negative eigenvalues
+    * Respectively $$A$$ is positive semidefinite if and only if it has non-negative eigenvalues
+    * Respectively $$A$$ is negative semidefinite if and only if it has non-positive eigenvalues
   * For symmetric matrices $$A$$ and $$B$$, $$A \succeq B$$ if and only if $$A - B \succeq 0$$
     * Respectively $$A \succ B$$ if and only if $$A - B \succ 0$$
+  * The sum of two positive definite matrices is also positive definite.
+  * Every positive definite matrix is nonsingular and invertible, and it's inverse is also positive definite
+  * If $$A$$ is positive definite and real $$r > 0$$, then $$rA$$ is positive definite
+
 
 ###Sources
 
@@ -222,4 +231,11 @@ $$
   year={2005},
   publisher={Professional Publishing Svc.}
 }
+@misc{ wiki:xxx,
+   author = "Wikipedia",
+   title = "Positive-definite matrix --- Wikipedia{,} The Free Encyclopedia",
+   year = "2016",
+   url = "https://en.wikipedia.org/w/index.php?title=Positive-definite_matrix&oldid=700197014",
+   note = "[Online; accessed 17-January-2016]"
+ }
 {% endhighlight %}
