@@ -107,6 +107,15 @@ body#index li {
 	margin-bottom: 1em;
 	}
 
+@media print {
+	body {
+		font-size: 0%;
+		line-height: 1.2;
+		}
+	header, footer {
+	  display: none;
+	  }
+}
 
 /* iPad
 -------------------------------------------------------- */
