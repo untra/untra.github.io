@@ -3,6 +3,8 @@ layout: post
 title:  "Optimization 3 - Convex Analysis"
 date:   2016-01-24 17:00:00
 mathjax: True
+keywords: [convex analysis, convex, analysis, extreme points, polytope, polyhedra, polyhedron, andréasson]
+desc: The convex analysis review you never knew you needed.
 ---
 ## Convex Analysis Review Notes
 Or, everything you ever needed to know from... Convex analysis?

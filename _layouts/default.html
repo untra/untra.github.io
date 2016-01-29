@@ -5,7 +5,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }} | {{ site.name }}</title>
         {% if site.links.github %}
-          <meta name="author" content="{{ site.links.github }}">
+        <meta name="author" content="{{ site.links.github }}">
+        {% endif %}
+        {% if page.keywords %}
+        <meta name="keywords" content="{{ page.keywords }}" />
+        {% else %}
+        <meta name="keywords" content="{{ site.keywords }}" />
+        {% endif %}
+        {% if page.desc %}
+        <meta name="desc" content="{{ page.desc }}" />
+        {% else %}
+         <meta name="desc" content="{{ site.desc }}" />
         {% endif %}
         <meta name="title" content="{{ page.title }}" >
         <link rel="icon" type="image/png" href="{{site.url}}/favicon.png">

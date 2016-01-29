@@ -3,6 +3,8 @@ layout: post
 title:  "Optimization 1 - Linear Algebra Review"
 date:   2016-01-11 17:00:00
 mathjax: True
+keywords: [linear algebra, linear, algebra, review, cheat sheet, vectors, andréasson, spina, square matrices, nonsingular, positive definite, positive semidefinite, eigenvalues]
+desc: The linear algebra review you never knew you needed.
 ---
 ## Linear Algebra Review Notes
 Or, everything you ever needed to know from linear algebra.

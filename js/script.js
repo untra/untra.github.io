@@ -88,6 +88,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }, 400);
 
 });
-var list = ["Linux User 💻", "Flannel Fiend 👕", "Peach Main 🍑", "French House 🎧 ","Beer Connoisseur 🍻","Coloradan","Boulderite 🌄","Ski Bum ⛷", "Grill Master 🍖", "Lord of the Dance 💃", "Nice Young Jewish Boy 👨", "'); DROP TABLE Posts;--", "something else I forget", "Untra"];
+var list = ["Linux User 💻", "Flannel Fiend 👕", "Peach Main 🍑", "French House 🎧 ","Beer Connoisseur 🍻","Coloradan","Boulderite 🌄","Ski Bum ⛷", "Grill Master 🍖", "Lord of the Dance 💃", "Nice Young Jewish Boy 👨", "'); DROP TABLE Posts;--", "something else I forget", "Untra", "AV - Club 📼", "Danger Noodle 🐍"];
 var item = list[Math.floor(Math.random()*list.length)];
 document.getElementById("narcissism").innerHTML = item;

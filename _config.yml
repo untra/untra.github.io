@@ -14,7 +14,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://untra.github.io" # the base hostname & protocol for your site
 twitter_username: untra
 github_username:  untra
-
+keywords: [programmer, mathematician, ruby, python, javascript, tornado, rails, Samuel Volin, jekyll, agile, git, untra, github]
+desc: "Samuel Volin's website and Jekyll blog."
 # Build settings
 markdown: kramdown
 
@@ -34,8 +35,8 @@ kramdown:
 ##define this for disqus comment support
 #disqus: forumname
 
-##set this to enable google analytics
-#ga_id: analyticsID
-#ga_domain: analyticsDomain
+#set this to enable google analytics
+ga_id: 'UA-73082006-1'
+ga_domain: 'auto'
 
 ##Some commonly used links
