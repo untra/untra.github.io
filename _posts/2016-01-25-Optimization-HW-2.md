@@ -147,19 +147,25 @@ $$\begin{align}
 * Then $$\text{rank }\hat{A} = 1 \neq n$$
 * Therefore $$\hat{x}_1$$ is not an extreme point of $$P$$.
 
-> b) is $$\hat{x}_2 := \frac{1}{2}(3,2)$$ an extreme point of $$P$$?
+> b) is $$\hat{x}_2 := (\frac{3}{2},\frac{1}{2})$$ an extreme point of $$P$$?
 
 * $$\hat{x}_2$$ is an extreme point of $$P$$ iff $$\text{rank }\hat{A} = n = 2$$
 * Recall $$\hat{A}$$ is the matrix such that $$\hat{A} \hat{x}_2 = \hat{b} $$
-* $$x_1 + x_2 \neq 2 \mathbf{X}$$
+* $$x_1 + x_2 = \checkmark$$
 * $$2x_1 + x_2 \neq 2 \mathbf{X}$$
-* $$x_1 - x_2 \neq 1 \mathbf{X}$$
-* Then there does not exist $$\hat{A}$$ such that $$\hat{A} \hat{x}_2 = \hat{b} $$
-* Then $$\hat{x}_2$$ is not an extreme point of $$P$$.
+* $$x_1 - x_2 = 1 \checkmark$$
+* Then $$\hat{A} \hat{x}_2 = \hat{b}$$ with
 
-### #3.5 (Existance of extreme points in LP's)
-> Let $$A \in \mathbb{R}^{m \times n}$$ be such that $$rank A = m$$, and let $$B \in \mathbb{R}^m$$. Show that if the polyhedron
->
-> $$P := \{ x \in \mathbb{R}^n : Ax = b ; x > 0^n \}$$
->
-> has a solution, then it has an extreme point.
+$$\begin{align}
+&\begin{bmatrix}
+1&1\\1&-1\\
+\end{bmatrix}
+\begin{bmatrix}
+\frac{3}{2}\\\frac{1}{2}
+\end{bmatrix}&=
+\begin{bmatrix}
+2\\1\end{bmatrix}
+\end{align}$$
+
+* Then $$\text{rank }\hat{A} = 2 = n$$
+* Therefore $$\hat{x}_2$$ is not an extreme point of $$P$$.
