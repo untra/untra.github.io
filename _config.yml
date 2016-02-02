@@ -22,7 +22,7 @@ markdown: kramdown
 # gems
 gems: [jekyll-paginate]
 ##syntax highlighter. change it to pygments
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
