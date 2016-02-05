@@ -77,7 +77,57 @@ This section *really* needs pictures, unfortunately.
 * *Algebraic Characterization of Extreme Points:* Let $$\hat{x} \in P = \{ x \in \mathbb{R}^n: A x \leq b\}$$, where $$A \in \mathbb{R}^{m \times n}$$ has $$\text{rank }A = n$$ and $$b \in \mathbb{R}^m$$. Furthermore let $$\hat{A} \hat{x} = \hat{b} $$ be the equality subsystem of $$A \hat{x} = b$$. Then $$\hat{x}$$ is an extreme point of $$P$$ if and only if $$\text{rank }\hat{A} = n$$
 
 * Let $$P$$ be a polyhedron. The number of points in $$P$$ is uncountably infinite *(why?)*. The number of extreme points of a polyhedron is finite *(why?)*
+
+  * Let $$A \in \mathbb{R}^{m \times n}$$ and $$b \in \mathbb{R}^m$$. The number of extreme points of $$P := \{ x \in \mathbb{R}^n : Ax \leq b\}$$ is less than $${m \choose n} = \frac{m!}{n!(m-n)!}$$. More specifically, the number of extreme points of $$P$$ never exceeds the number of $$n$$ objects can be chosen from a set of $$m$$ options.
+
 * The convex hull of the extreme points of a polyhedron is a polytope.
+
+### Cones, Representation Theorem, Speration Theorem, and Farkas' Lemma
+Cones have a special definition in convex analysis. A subset $$C$$ of $$\mathbb{R}^n$$ is a *Polyhedral Cone* if and only if $$\lambda x \in C$$ for all $$x \in C$$ and $$\lambda > 0$$
+
+With this definition, we can make a few important definitions:
+
+* *Representation Theorem:* Let $$A \in \mathbb{R}^{m \times n}$$ and $$b \in \mathbb{R}^m$$. Let $$Q := \{ x \in \mathbb{R}^n : Ax \leq b\}$$, $$P$$ denote the convex hull of the extreme points of $$Q$$, and $$C := \{ x \in \mathbb{R}^n : Ax \leq 0^m \}$$. If $$\text{rank} A = n$$ then
+
+$$Q = P + C = \{ x \in \mathbb{R}^n : x = u + v \text{ for } u \in P \text{ and } v \in C\}$$
+
+In other words, every polyhedron with at least one extreme point ($$Q$$) is the sum of a polytope ($$P$$) and a polyhedral cone ($$C$$).
+
+* A set $$P$$ is a polytope if and only if it is a bounded polyhedron.
+
+* *Seperation* Let $$C_1$$ and $$C_2$$ be nonempty sets in $$\mathbb{R}^n$$, and let $$H := \{ x \in \mathbb{R}^n : \pi^T x = \alpha \}$$ be a hyperplane in $$\mathbb{R}^n$$. Then the following are true:
+  * H is said to *Seperate* $$C_1$$ and $$C_2$$ if $$\pi^T x \geq \alpha$$ for all $$x \in C_1$$ and $$\pi^T x \leq \alpha$$ for all $$x \in C_2$$
+  * H is said to *Properly Seperate* $$C_1$$ and $$C_2$$ if in addition $$C_1 \cup C_2 \not\subset H$$
+  * H is said to *Stricly Seperate* $$C_1$$ and $$C_2$$ if $$\pi^T x > \alpha$$ for all $$x \in C_1$$ and $$\pi^T x < \alpha$$ for all $$x \in C_2$$
+  * H is said to *Strongly Seperate* $$C_1$$ and $$C_2$$ if, for some $$\epsilon > 0 \pi^T x > \alpha + \epsilon$$ for all $$x \in C_1$$ and $$\pi^T x < \alpha$$ for all $$x \in C_2$$
+
+* *Seperation Theorem:* Suppose the set $$C \subseteq \mathbb{R}$^n$$ is nonempty, closed and convex. Suppose a point $$y$$ does not lie in $$C$$. Then there exists a vector $$\pi \neq o^n$$ and $$\alpha in \mathbb{R}$$ such that $$\pi^T y > \alpha$$ and $$\pi^T x \leq \alpha$$ for all $$x \in C$$
+
+In other words, if a point $$y$$ does not lie in a closed and convex set $$C$$, then there exists a hyperplane $$H$$ that completely seperates $$y$$ from $$C$$
+
+* Let $$C \subset \mathbb{R}^n$$ be a closed and convex set. Then $$C$$ is the intersection all half-spaces containing $$C$$
+
+* *Farkas' Lemma:* Let $$A \in \mathbb{R}^{m \times n}$$ and $$b \in \mathbb{R}^m$$. Then Exactly one of the following systems has a solution, and the other is inconsistent:
+  * $$ Ax = b, \\ x \geq 0^n $$
+  * $$ A^T \pi \leq 0^n, \\ b^T \pi > 0 $$
+
+### Convex Functions
+
+Suppose that a set $$S \subseteq \mathbb{R}^n$$. A continuous function $$f : \mathbb{R}^n \rightarrow \mathbb{R}$$ is convex at $$\bar{x} \in S$$ if for $$\lambda \in (0,1)$$ and $$x \in S$$,
+
+$$\lambda \bar{x} + (1 - \lambda) \Rightarrow f( \lambda \bar{x} + (1-\lambda)x) \leq \lambda f(\bar{x})+(1-\lambda)f(x)$$
+
+In other words, a convex function is a function that is always "lower" than it's linear interpolation.
+
+From the definition, it also follows that $$f$$ is convex on $$S$$ if and only if, for $$x_1, x_2 \in S, \lambda \in (0,1)$$,
+
+$$f( \lambda x_1 + (1 - \lambda) x_2 ) \leq \lambda f(x_1) + (1- \lambda) f(x_2)$$
+
+
+
+
+
+
 
 
 ### Sources
