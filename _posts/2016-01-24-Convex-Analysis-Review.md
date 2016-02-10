@@ -123,7 +123,9 @@ From the definition, it also follows that $$f$$ is convex on $$S$$ if and only i
 
 $$f( \lambda x_1 + (1 - \lambda) x_2 ) \leq \lambda f(x_1) + (1- \lambda) f(x_2)$$
 
-
+* A function of many variables is convex or concave if it is twice differentiable.
+  * If the functions hessian matrix is positive semidefinite, it is convex. Recall a nonsingular matrix is positive definite, and therefore positive semidefinite
+  * If the functions hessian matrix is negative semidefinite, it is concave.
 
 
 
@@ -156,4 +158,12 @@ $$f( \lambda x_1 + (1 - \lambda) x_2 ) \leq \lambda f(x_1) + (1- \lambda) f(x_2)
    note = "[Online; accessed 25-January-2016]"
  }
  http://math.caltech.edu/Simon_Chp8.pdf
+ @misc{292941,
+     TITLE = {How to determine whether a function of many variables is convex or non-convex?},
+     AUTHOR = {Peder (http://math.stackexchange.com/users/59704/peder)},
+     HOWPUBLISHED = {Mathematics Stack Exchange},
+     NOTE = {URL:http://math.stackexchange.com/q/292941 (version: 2013-02-02)},
+     EPRINT = {http://math.stackexchange.com/q/292941},
+     URL = {http://math.stackexchange.com/q/292941}
+ }
 {% endhighlight %}

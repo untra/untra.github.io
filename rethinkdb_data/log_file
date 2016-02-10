@@ -1,0 +1,13 @@
+2016-02-10T14:49:54.529928582 20.039874s notice: Recursively removing directory /home/samuel/Documents/untra.github.io/rethinkdb_data/tmp
+2016-02-10T14:49:54.542694158 20.052639s notice: Initializing directory /home/samuel/Documents/untra.github.io/rethinkdb_data
+2016-02-10T14:49:54.543142270 20.053087s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/samuel/Documents/untra.github.io/rethinkdb_data' did not already exist or is empty.)
+2016-02-10T14:49:54.543165440 20.053110s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2016-02-10T14:49:54.548571918 20.058518s notice: Running on Linux 3.19.0-28-generic x86_64
+2016-02-10T14:49:54.548631245 20.058575s notice: Loading data from directory /home/samuel/Documents/untra.github.io/rethinkdb_data
+2016-02-10T14:49:54.619461072 20.129405s info: Automatically using cache size of 2093 MB
+2016-02-10T14:49:54.620035420 20.129980s notice: Listening for intracluster connections on port 29015
+2016-02-10T14:49:54.623559724 20.133504s notice: Listening for client driver connections on port 28015
+2016-02-10T14:49:54.623676488 20.133621s notice: Listening for administrative HTTP connections on port 8080
+2016-02-10T14:49:54.623678651 20.133623s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-02-10T14:49:54.623678856 20.133623s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-02-10T14:49:54.623679830 20.133624s notice: Server ready, "samuel_Lenovo_U31_70_a0a" 3ed0564f-4749-464c-9e13-a7157b72475b
