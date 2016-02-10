@@ -11,7 +11,7 @@ desc:
 ##5: Ch 3: 11, 12, 13, 14, 15, 16.
 
 ### 11
-Determine whether the function $$f(x) := 2 a^2 - 3 a b + 5 b^2 -2 a + 6b$$ is concave, convex, or neither on $$\mathbb{R}^2$$
+> Determine whether the function $$f(x) := 2 a^2 - 3 a b + 5 b^2 -2 a + 6b$$ is concave, convex, or neither on $$\mathbb{R}^2$$
 
 * $$f(x)$$ will be either concave or convex if it is twice differentiable with respect to all of it's variables.
   * $$\frac{df}{da} = 4a -3b -2$$
@@ -31,17 +31,17 @@ $$\begin{align}H=\begin{bmatrix}
 \end{bmatrix}
 \end{align}$$
 
-* The hessian matrix row reduces to the identity, and is therefore nonsingular. Then $$H$$ is positive definite.
-* Then $$f(x)$$ is **Convex**. Done $$\checkmark$$
+> * The hessian matrix row reduces to the identity, and is therefore nonsingular. Then $$H$$ is positive definite.
+> * Then $$f(x)$$ is **Convex**. Done $$\checkmark$$
 
 ### 12
 
-* Is the function $$f(a,b) = a^2 + b^2 + 3 a b + 10 a - 11 b + 5$$ convex?
-* Is the function $$f(x) = \sum_{i=1}^n h_i(x_i)^2$$ convex for $$i = 1 \dots n$$ if $$h_i : \mathbb{R} \rightarrow \mathbb{R}_+$$?
-* if $$h_i : \mathbb{R} \rightarrow \mathbb{R}$$? (give a counterexample)
+> * Is the function $$f(a,b) = a^2 + b^2 + 3 a b + 10 a - 11 b + 5$$ convex?
+> * Is the function $$f(x) = \sum_{i=1}^n h_i(x_i)^2$$ convex for $$i = 1 \dots n$$ if $$h_i : \mathbb{R} \rightarrow \mathbb{R}_+$$?
+> * if $$h_i : \mathbb{R} \rightarrow \mathbb{R}$$? (give a counterexample)
 
 ### 13
-Let $$a > 0$$. Which of the following one-variable functions are convex or strictly convex / concave or strictly concave?
+> Let $$a > 0$$. Which of the following one-variable functions are convex or strictly convex / concave or strictly concave?
 
 *  $$f(x) := \ln x, \text{ for } x > 0$$
 : **Strictly Concave**
@@ -66,20 +66,20 @@ Let $$a > 0$$. Which of the following one-variable functions are convex or stric
 ### 14
 Which of the following functions are convex or strictly convex?
 
-* $$f(x) := \ln(e^x_1 + e^x_2)$$
-* $$f(x) := \ln \sum_{j=1}^n e^{a_j x_j} $$, where $$a_j = 1 \dots n$$ are constants
-* $$f(x) := \sqrt{\sum_{j=1}^n x_j^2}$$
-* $$f(x) := x_1^2 / x_2 \text{ for } x_2 > 0$$
-* $$f(x) := - \sqrt{x_1 x_2} for x_1, x_2 > 0$$
+> * $$f(x) := \ln(e^x_1 + e^x_2)$$
+> * $$f(x) := \ln \sum_{j=1}^n e^{a_j x_j} $$, where $$a_j = 1 \dots n$$ are constants
+> * $$f(x) := \sqrt{\sum_{j=1}^n x_j^2}$$
+> * $$f(x) := x_1^2 / x_2 \text{ for } x_2 > 0$$
+> * $$f(x) := - \sqrt{x_1 x_2} for x_1, x_2 > 0$$
 
 ### 15
-Consider the following function:
+> Consider the following function:
 
-$$f(x,y) := 2x^2 - 2xy + \frac{1}{2}y^2 + 3x - y$$
+> $$f(x,y) := 2x^2 - 2xy + \frac{1}{2}y^2 + 3x - y$$
 
-* Express the function in matrix-vector form
-* Is the function singular?
-* is the function convex?
+>* Express the function in matrix-vector form
+>* Is the function singular?
+>* is the function convex?
 
 ### 16
-Let $$f_1 \dots f_k : \mathbb{R}^n \rightarrow \mathbb{R}$$ be convex functions and let f be defined as $$f(x) = \max \{ f_1(x), \dots, f_k(x)\}$$. Show that f is convex. State a similar result for concave functions.
+> Let $$f_1 \dots f_k : \mathbb{R}^n \rightarrow \mathbb{R}$$ be convex functions and let f be defined as $$f(x) = \max \{ f_1(x), \dots, f_k(x)\}$$. Show that f is convex. State a similar result for concave functions.
