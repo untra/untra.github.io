@@ -2,6 +2,7 @@
 layout: post
 title:  "Optimization 5 - Homework 5"
 date:   2016-02-01 17:00:00
+published: False
 mathjax: True
 keywords: [convex, analysis, homework, andréasson, spina, extreme points, rank, finding extreme points, matrix, polyhedron]
 desc:
@@ -62,7 +63,7 @@ $$\begin{align}H=\begin{bmatrix}
 
 > * Is the function $$f(x) = \sum_{i=1}^n h_i(x_i)^2$$ convex for $$i = 1 \dots n$$ if $$h_i : \mathbb{R} \rightarrow \mathbb{R}_+$$?
 
-* If $$h(x) = r$$ for $$r \in \mathbb{R}_+$$ then $$f(x) is a flat line, and is neither convex nor concave$$
+* If $$h(x) = r$$ for $$r \in \mathbb{R}_+$$ then $$f(x)$$ is a flat line, and is neither convex nor concave.
 > * if $$h_i : \mathbb{R} \rightarrow \mathbb{R}$$? (give a counterexample)
 
 * If $$h(x) = 0$$ then $$f(x) is a flat line, and is neither convex nor concave$$
@@ -135,7 +136,7 @@ x\\y
 \end{bmatrix} $$
 
 * Because H doesn't row reduce to the identity matrix, it's columns are not linearly independent, and it is therefore singular.
-* H is not convex
+* Then H is not convex.
 
 
 ### 16
