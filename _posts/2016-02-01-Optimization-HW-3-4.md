@@ -18,8 +18,8 @@ desc:
   * $$\frac{df}{db} = 10b -3a +6$$
   * $$\frac{df^2}{da^2} = 4$$
   * $$\frac{df^2}{dab} = -3$$
-  * $$\frac{df^2}{db^2} = 10$$
   * $$\frac{df^2}{dba} = -3$$
+  * $$\frac{df^2}{db^2} = 10$$
 * Then $$f(x)$$ is either convex or concave. It will be convex if the hessian matrix is postivie definite, or concave if the matrix is negative definite.
 * The Hessian matrix $$H$$ is :
 
@@ -37,8 +37,35 @@ $$\begin{align}H=\begin{bmatrix}
 ### 12
 
 > * Is the function $$f(a,b) = a^2 + b^2 + 3 a b + 10 a - 11 b + 5$$ convex?
+
+* First we check for second order derivatives:
+  * $$\frac{df}{da} = 2a + 3b + 10$$
+  * $$\frac{df}{db} = 2b + 3a - 11$$
+  * $$\frac{df^2}{da^2} = 2$$
+  * $$\frac{df^2}{dab} = 3$$
+  * $$\frac{df^2}{dba} = 3$$
+  * $$\frac{df^2}{db^2} = 2$$
+* The Hessian matrix $$H$$ is :
+
+$$\begin{align}H=\begin{bmatrix}
+\frac{df^2}{da^2}&\frac{df^2}{dab}\\\frac{df^2}{dba}&\frac{df^2}{db^2}
+\end{bmatrix}&=
+\begin{bmatrix}
+2&3&\\3&2&
+\end{bmatrix}\sim
+\begin{bmatrix}
+1&0&\\0&1&
+\end{bmatrix}
+\end{align}$$
+
+* Then $$f(a,b) is convex$$
+
 > * Is the function $$f(x) = \sum_{i=1}^n h_i(x_i)^2$$ convex for $$i = 1 \dots n$$ if $$h_i : \mathbb{R} \rightarrow \mathbb{R}_+$$?
+
+* If $$h(x) = r$$ for $$r \in \mathbb{R}_+$$ then $$f(x) is a flat line, and is neither convex nor concave$$
 > * if $$h_i : \mathbb{R} \rightarrow \mathbb{R}$$? (give a counterexample)
+
+* If $$h(x) = 0$$ then $$f(x) is a flat line, and is neither convex nor concave$$
 
 ### 13
 > Let $$a > 0$$. Which of the following one-variable functions are convex or strictly convex / concave or strictly concave?
@@ -80,6 +107,36 @@ Which of the following functions are convex or strictly convex?
 >* Express the function in matrix-vector form
 >* Is the function singular?
 >* is the function convex?
+
+* The Hessian matrix $$H$$ is :
+
+$$\begin{align}H=\begin{bmatrix}
+\frac{df^2}{da^2}&\frac{df^2}{dab}\\\frac{df^2}{dba}&\frac{df^2}{db^2}
+\end{bmatrix}&=
+\begin{bmatrix}
+4&-2\\-2&1
+\end{bmatrix}\sim
+\begin{bmatrix}
+1&\frac{-1}{2}\\0&0
+\end{bmatrix}
+\end{align}$$
+
+We can write $$f(x,y)$$ as
+
+$$ f(x,y) = \frac{1}{2} \begin{bmatrix}
+x&y
+\end{bmatrix} H
+\begin{bmatrix}
+x\\y
+\end{bmatrix} + \begin{bmatrix}
+3&-1
+\end{bmatrix}\begin{bmatrix}
+x\\y
+\end{bmatrix} $$
+
+* Because H doesn't row reduce to the identity matrix, it's columns are not linearly independent, and it is therefore singular.
+* H is not convex
+
 
 ### 16
 > Let $$f_1 \dots f_k : \mathbb{R}^n \rightarrow \mathbb{R}$$ be convex functions and let f be defined as $$f(x) = \max \{ f_1(x), \dots, f_k(x)\}$$. Show that f is convex. State a similar result for concave functions.
