@@ -221,6 +221,19 @@ $$
   * Every positive definite matrix is nonsingular and invertible, and it's inverse is also positive definite
   * If $$A$$ is positive definite and real $$r > 0$$, then $$rA$$ is positive definite
 
+* Let $$A\in\mathbb{R}^{n \times n}$$ be a symmetric matrix. Then the determinant
+
+$$\bigtriangleup_k = \begin{align}\begin{bmatrix}
+a_{1 1}& \dots & a_{1 k}\\\vdots & \ddots & \vdots \\ a_{k 1} & \dots & a_{k k}
+\end{bmatrix}
+\end{align}$$
+
+for $$1 \leq k \leq n$$ is called the k-th principal minor of A.
+
+* If $$A\in\mathbb{R}^{n \times n}$$ is a symmetric matrix, and if $$\bigtriangleup_k$$ is the k-th principal minor for $$k = 1, \dots, n$$ then
+  * $$A$$ is positive definite if $$\bigtriangleup_k > 0$$
+  * $$A$$ is negative definite if $$(-1)^k \bigtriangleup_k > 0$$. That is, the principal minors alternate sign starting with $$\bigtriangleup_1 < 0$$
+  * If either of the above conditions applied for all but $$\bigtriangleup_n = 0$$, then $$A$$ is semidefinite.
 
 ###Sources
 

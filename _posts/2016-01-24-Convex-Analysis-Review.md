@@ -124,8 +124,7 @@ From the definition, it also follows that $$f$$ is convex on $$S$$ if and only i
 $$f( \lambda x_1 + (1 - \lambda) x_2 ) \leq \lambda f(x_1) + (1- \lambda) f(x_2)$$
 
 * A function of many variables is convex or concave if it is twice differentiable.
-  * If the functions hessian matrix is positive semidefinite, it is convex. Recall a nonsingular matrix is positive definite, and therefore positive semidefinite
-  * If the functions hessian matrix is negative semidefinite, it is concave.
+
 
 
 
