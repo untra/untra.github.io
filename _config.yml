@@ -20,14 +20,12 @@ desc: "Samuel Volin's website and Jekyll blog."
 markdown: kramdown
 
 # gems
-gems: [jekyll-paginate]
+gems: []
 ##syntax highlighter. change it to pygments
 highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-paginate: 5
-paginate_path: "page:num"
 
 kramdown:
   syntax_highlighter: pygments

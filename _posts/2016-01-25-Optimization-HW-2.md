@@ -2,6 +2,7 @@
 layout: post
 title:  "Optimization 4 - Homework 3"
 date:   2016-01-25 17:00:00
+published: False
 mathjax: True
 keywords: [convex, analysis, homework, andréasson, spina, extreme points, rank, finding extreme points, matrix, polyhedron]
 desc:

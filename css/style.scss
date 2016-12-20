@@ -30,12 +30,12 @@ a{
 }
 .site-title{
 	margin: 0;
-	font-size: 4em;
+	font-size: 2em;
 	text-align: center;
 }
 .site-description{
 	margin: 0;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: center;
 }
 
@@ -230,7 +230,7 @@ a {
 }
 
 .post, .posts .unit.single-post-excerpt{
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
 	padding: $single-post-padding;
 	padding-left: $single-post-padding*2;
 	background-color: #ffffff;

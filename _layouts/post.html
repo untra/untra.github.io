@@ -7,13 +7,7 @@ layout: default
 	<header>
 		<h1>{{ page.title }}</h1>
 		<p class="meta">
-			<time class="timeago postlist-meta" datetime="{{ page.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar"></i>{{ page.date | date: "%B %-d, %Y" }}</time>
-			<a class="sharer facebook" href="#" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-facebook-f"></i></a>
-			{% if site.twitter %}
-				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href+'&via={{ site.twitter }}','_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
-			{% else %}
-				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
-			{% endif %}
+			<time class="timeago postlist-meta" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
 		</p>
 	</header>
 	<section>
