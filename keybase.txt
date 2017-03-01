@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/untra
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://untra.io
+  * I am untra (https://keybase.io/untra) on keybase.
+  * I have a public key ASA8io6FotNfnsiKNAiCeRujn0yjI4Qi5QgffiNff4SZEAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01203c8a8e85a2d35f9ec88a340882791ba39f4ca3238422e5081f7e235f7f8499100a",
+            "host": "keybase.io",
+            "kid": "01203c8a8e85a2d35f9ec88a340882791ba39f4ca3238422e5081f7e235f7f8499100a",
+            "uid": "95953f9074edf8c754ecef7995587f19",
+            "username": "untra"
+        },
+        "service": {
+            "hostname": "untra.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1488346110,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1488345884,
+        "hash": "1d3ab1de13395ebb9722efff9b66ab6849fa2c2ff3eaea162ab9f4afab8f995e9a322e55c22a42de0046d73211165ab3b2d24bd8d030bee35bdd4c6fd54d4f94",
+        "seqno": 931421
+    },
+    "prev": "828b1957a5b55adbfcb34d16ebaed634a2e2314c16a732a0d251a0ee77cdeb6b",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgPIqOhaLTX57IijQIgnkbo59MoyOEIuUIH34jX3+EmRAKp3BheWxvYWTFAux7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwM2M4YThlODVhMmQzNWY5ZWM4OGEzNDA4ODI3OTFiYTM5ZjRjYTMyMzg0MjJlNTA4MWY3ZTIzNWY3Zjg0OTkxMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2M4YThlODVhMmQzNWY5ZWM4OGEzNDA4ODI3OTFiYTM5ZjRjYTMyMzg0MjJlNTA4MWY3ZTIzNWY3Zjg0OTkxMDBhIiwidWlkIjoiOTU5NTNmOTA3NGVkZjhjNzU0ZWNlZjc5OTU1ODdmMTkiLCJ1c2VybmFtZSI6InVudHJhIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ1bnRyYS5pbyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODgzNDYxMTAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4ODM0NTg4NCwiaGFzaCI6IjFkM2FiMWRlMTMzOTVlYmI5NzIyZWZmZjliNjZhYjY4NDlmYTJjMmZmM2VhZWExNjJhYjlmNGFmYWI4Zjk5NWU5YTMyMmU1NWMyMmE0MmRlMDA0NmQ3MzIxMTE2NWFiM2IyZDI0YmQ4ZDAzMGJlZTM1YmRkNGM2ZmQ1NGQ0Zjk0Iiwic2Vxbm8iOjkzMTQyMX0sInByZXYiOiI4MjhiMTk1N2E1YjU1YWRiZmNiMzRkMTZlYmFlZDYzNGEyZTIzMTRjMTZhNzMyYTBkMjUxYTBlZTc3Y2RlYjZiIiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAb6f19VulmmCuZiDk2QxdEXvIvXIqNeJ+H0T7YMBWm6XesC9j548u+4yZDdxGOb37ph64nP5S26qnOQTb0EJFCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGGraK1x6YLDn5imLmet0iAJxOydjwubJlRtfEZ1JVE2o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/untra
+
+==================================================================
