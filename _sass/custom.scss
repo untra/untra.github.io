@@ -1,0 +1,16 @@
+/*- Custom style -*/
+
+// -- Put custom style under this point -- //
+.circle {
+  margin: 0 auto;
+  margin-bottom: 32px;
+	border-radius: 50%;
+	width: 200px;
+  height: 200px;
+  background-image: url("/img/REVIVE.gif");
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: 192px 96px;
+  background-position: center;
+	/* width and height can be anything, as long as they're equal */
+}

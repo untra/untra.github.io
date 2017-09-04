@@ -1,6 +1,6 @@
-The MIT License (MIT)
+## Released under MIT License
 
-Copyright (c) 2014 Bitwiser.in
+Copyright (c) 2017 Samuel Volin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

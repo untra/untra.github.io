@@ -1,40 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-name: Samuel Volin
 title: Untra - Samuel Volin
-email: untra.sam@gmail.com
 description: "Programmer, Mathematician, "
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://untra.github.io" # the base hostname & protocol for your site
-twitter_username: untra
-github_username:  untra
-keywords: [programmer, mathematician, ruby, python, javascript, tornado, rails, Samuel Volin, jekyll, agile, git, untra, github]
-desc: "Samuel Volin's website and Jekyll blog."
+url: "https://untra.io"
+author:
+  name: "Samuel Volin"
+  email: "untra.sam@gmail.com"
+  url: "http://www.untra.io"
+
 # Build settings
+baseurl: "" # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
 
-# gems
-gems: []
-##syntax highlighter. change it to pygments
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: :compressed
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-kramdown:
-  syntax_highlighter: pygments
+# Plugins
+plugins:
+  - jekyll-paginate
 
-##define this for disqus comment support
-#disqus: forumname
+reverse: true
 
 #set this to enable google analytics
 ga_id: 'UA-73082006-1'
 ga_domain: 'auto'
 
 ##Some commonly used links
+links:
+  twitter: untra
+  email: untra.sam@gmail.com
+  github: untra
+  reddit: untra
+  keybase: untra
+  mixcloud: untra

@@ -1,0 +1,4 @@
+{% if site.ga_id %}
+  {% include analytics.html %}
+{% endif %}
+<script src="{{ "/js/main.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>

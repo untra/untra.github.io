@@ -82,7 +82,7 @@ This section *really* needs pictures, unfortunately.
 
 * The convex hull of the extreme points of a polyhedron is a polytope.
 
-### Cones, Representation Theorem, Speration Theorem, and Farkas' Lemma
+### Cones, Representation Theorem, Seperation Theorem, and Farkas' Lemma
 Cones have a special definition in convex analysis. A subset $$C$$ of $$\mathbb{R}^n$$ is a *Polyhedral Cone* if and only if $$\lambda x \in C$$ for all $$x \in C$$ and $$\lambda > 0$$
 
 With this definition, we can make a few important definitions:
