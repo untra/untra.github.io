@@ -13,9 +13,13 @@ lastmod: 2014-07-07T16:57:30+05:30
 	  <li class="post">
 	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
 	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
+			{% if post.mixcloud %}
+			<iframe width="100%" height="60" src="{{ post.mixcloud }}" frameborder="0" ></iframe>
+			{% else %}
+				<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+			{% endif %}
+		</li>
 
-    {% endfor %}
+		{% endfor %}
 
 </ul>
