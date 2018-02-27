@@ -8,7 +8,7 @@ sitemap:
 ---
 ## About Samuel Volin
 Hello! I am **Samuel Volin**
-💎 @untra 💎 [_keybase_](https://keybase.io/untra) - [_github_](https://github.com/untra) [_twitter_](https://twitter.com/untra)
+💎 @untra 💎 [_keybase_](https://keybase.io/untra) - [_github_](https://github.com/untra) - [_twitter_](https://twitter.com/untra) - [_eth address_](https://etherscan.io/address/0x0570b8f2ee4dc8b710bf0c18269b3902857cfdca)
 
 Programming is more than a skill, it is a craft.
 
@@ -21,13 +21,13 @@ Good software is not conceived, it is developed over time, preferably by a team 
 * I currently enjoy working with _elixir_ & _phoenix for my side projects
 
 * I like to ski in the winter and ride my bike in the summer
-* I listen to French Disco music on [_mixcloud_](https://www.mixcloud.com/untra/)
+* I listen to French disco music on [_mixcloud_](https://www.mixcloud.com/untra/)
 * I enjoy cooking large meals for my friends
 
 ### 🛠️ Work
 *  **Software Engineer**, LogRhythm (2016 - present)
 *  **Software Engineering Intern**, LogRhythm (2015-2016)
-*  **Student Assistant**, OIT Network Security & Information Risk** (2013-2015)
+*  **Student Assistant**, OIT Network Security & Information Risk (2013-2015)
 
 ### 🎓 Education
 * **University of Colorado at Boulder** (2012-2016)
@@ -39,7 +39,7 @@ Good software is not conceived, it is developed over time, preferably by a team 
 * (attended) ElixirConf - September 2017, Bellevue, WA
 
 ### 👨‍💻 Hackathons
-* (observed) EthDenver Hackathon - February 2018, Boulder CO
+* (observed) EthDenver Hackathon - February 2018, Denver CO
+* (participated) Money 20/20 Hackathon - October 2015, Las Vegas NV
 * (won 🥈) HackCU 2015 Hackathon - April 2015, Boulder CO
 * (won 🥉) Coinorado Bitcoin Hackathon - November 2014, Boulder CO
-* (participated) Money 20/20 Hackathon - October 2015, Boulder CO
