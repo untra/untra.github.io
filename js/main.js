@@ -47,7 +47,13 @@ function menuClick() {
 
 function modeClick() {
 	var modeToggle = document.getElementById("mode");
-	modeToggle.attachEvent('onclick', toggleMode);
+	if (document.addEventListener && icon !== null) {
+		modeToggle.addEventListener('click', toggleMode);
+	} else if (document.attachEvent && modeToggle !== null) {
+		icon.attachEvent('onclick', toggleMode);
+	} else {
+		return;
+	}
 }
 
 menuClick();
