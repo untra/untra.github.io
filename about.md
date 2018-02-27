@@ -6,6 +6,7 @@ sitemap:
     changefreq: weekly
     lastmod: 2018-02-26T16:31:30+05:30
 ---
+<div class="daymode">
 ## About Samuel Volin
 Hello! I am **Samuel Volin**
 💎 @untra 💎 [_keybase_](https://keybase.io/untra) - [_github_](https://github.com/untra) - [_twitter_](https://twitter.com/untra) - [_eth address_](https://etherscan.io/address/0x0570b8f2ee4dc8b710bf0c18269b3902857cfdca)
@@ -14,10 +15,10 @@ Programming is more than a skill, it is a craft.
 
 Good software is not conceived, it is developed over time, preferably by a team of dedicated and passionate friends, and with an eye towards overarching design and flexibility. Software engineering is about studying the trade-offs and nuances of the tools at your disposal, and becoming fearless in the face of the technical unknown. Through gradual practice and research, mastery is attainable.
 
-* I am a professional Software Developer, currently residing in Boulder, Colorado. I am passionate about mathematics, functional programming, software engineering, polyglot programming and developer operations. I have navigated fulfillment of FIPS 140-2 requirements for a project. I have broken monoliths into microservices. I have shoveled legacy code into tested & automated nightly builds and again in _night mode_.
+* I am a professional Software Developer, currently residing in Boulder, Colorado. I am passionate about mathematics, functional programming, software engineering, polyglot programming and developer operations. I have navigated fulfillment of FIPS 140-2 requirements for a project. I have broken monoliths into microservices. I have shoveled legacy code into tested & automated nightly builds and all of it again in <p id="mode">_night mode_</p>.
 
 * I am currently employed at [_LogRhythm_](https://logrhythm.com/)
-* I am a Programmer, Mathematician, Rad Dude & Your Friend 💙
+* I am a Programmer, Mathematician, Rad Dude & Your Friend
 * I currently enjoy working with [_elixir_](https://elixir-lang.org/) & [_phoenix_](http://phoenixframework.org/) for my side projects
 
 * I like to ski in the winter and ride my bike in the summer
@@ -43,3 +44,4 @@ Good software is not conceived, it is developed over time, preferably by a team 
 * (participated) Money 20/20 Hackathon - October 2015, Las Vegas NV
 * (won 🥈) HackCU 2015 Hackathon - April 2015, Boulder CO
 * (won 🥉) Coinorado Bitcoin Hackathon - November 2014, Boulder CO
+</div>
