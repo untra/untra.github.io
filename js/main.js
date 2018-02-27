@@ -1,12 +1,14 @@
 var normal = document.getElementById("nav-menu");
 var reverse = document.getElementById("nav-menu-left");
+var modeToggle = document.getElementById("mode-toggle");
 
 var icon = normal !== null ? normal : reverse;
 
 function toggleMode() {
 	var currentMode = document.body.className
-	var nextMode = currentMode === "daymode" ? "daymode" : "nightmode";
+	var nextMode = currentMode === "daymode" ? "nightmode" : "daymode";
 	document.body.className = nextMode;
+	modeToggle.innerHTML = nextMode === "daymode" ? "day mode" : "night mode";
 }
 
 
@@ -46,11 +48,10 @@ function menuClick() {
 }
 
 function modeClick() {
-	var modeToggle = document.getElementById("mode");
-	if (document.addEventListener && icon !== null) {
+	if (document.addEventListener && modeToggle !== null) {
 		modeToggle.addEventListener('click', toggleMode);
 	} else if (document.attachEvent && modeToggle !== null) {
-		icon.attachEvent('onclick', toggleMode);
+		modeToggle.attachEvent('onclick', toggleMode);
 	} else {
 		return;
 	}
