@@ -18,7 +18,7 @@ Good software is not conceived, it is developed over time, preferably by a team 
 
 * I am currently employed at [_LogRhythm_](https://logrhythm.com/)
 * I am a Programmer, Mathematician, Rad Dude & Your Friend 💙
-* I currently enjoy working with _elixir_ & _phoenix for my side projects
+* I currently enjoy working with [_elixir_](https://elixir-lang.org/) & [_phoenix_](http://phoenixframework.org/) for my side projects
 
 * I like to ski in the winter and ride my bike in the summer
 * I listen to French disco music on [_mixcloud_](https://www.mixcloud.com/untra/)
