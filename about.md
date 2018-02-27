@@ -43,4 +43,4 @@ Good software is not conceived, it is developed over time, preferably by a team 
 * (participated) Money 20/20 Hackathon - October 2015, Las Vegas NV
 * (won 🥈) HackCU 2015 Hackathon - April 2015, Boulder CO
 * (won 🥉) Coinorado Bitcoin Hackathon - November 2014, Boulder CO
-</div>
+
