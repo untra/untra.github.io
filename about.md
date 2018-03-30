@@ -14,7 +14,7 @@ Programming is more than a skill, it is a craft.
 
 Good software is not conceived, it is developed over time, preferably by a team of dedicated and passionate friends, and with an eye towards overarching design and flexibility. Software engineering is about studying the trade-offs and nuances of the tools at your disposal, and becoming fearless in the face of the technical unknown. Through gradual practice and research, mastery is attainable.
 
-I am a professional Software Developer, currently residing in **Boulder, Colorado**. I am passionate about mathematics, functional programming, software engineering, polyglot programming and developer operations. I have navigated fulfillment of FIPS 140-2 requirements for a project. I have broken monoliths into microservices. I have unscrambled impossible bugs while not simultaneously seducing a woman. I have shoveled legacy code into tested & automated nightly builds and all of it again in _night mode_.
+I am a professional Software Developer, currently residing in **Boulder, Colorado**. I am passionate about mathematics, functional programming, software engineering, polyglot programming and developer operations. I have navigated fulfillment of FIPS 140-2 requirements for a project. I have broken monoliths into microservices. I have shoveled legacy code into tested & automated nightly builds and all of it again in _night mode_.
 
 * I am currently employed at [_LogRhythm_](https://logrhythm.com/)
 * I am a Programmer, Mathematician, Rad Dude & Your Friend

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mathematical Cryptography"
-date:   2018-03-29 17:00:00
+date:   2018-03-29 12:00:00
 keywords: [Mathematical, Cryptography, Alan Turing, Benjamin Tallmadge, RSA, diffie hellman, key exchange, dark web, blockchain, homomorphic encryption, NSA, gold codes]
 slides: "https://docs.google.com/presentation/d/e/2PACX-1vQmGDWiBD3SFI-JUH39-i5AP1kiMg3oAWM83Dqllpt3nIwy9coMgFVmiHkKW721KNVpGxx9AHHVvLj8/embed?start=false&loop=false&delayms=3000"
 desc: A presentation on Mathematical Cryptography. To be completed.
