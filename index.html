@@ -15,6 +15,8 @@ lastmod: 2014-07-07T16:57:30+05:30
 	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 			{% if post.mixcloud %}
 			<iframe width="100%" height="60" src="{{ post.mixcloud }}" frameborder="0" ></iframe>
+			{% elsif %}
+			<iframe src="{{ post.slides }}" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 			{% else %}
 				<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 			{% endif %}
