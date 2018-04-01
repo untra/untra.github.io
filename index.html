@@ -16,7 +16,9 @@ lastmod: 2014-07-07T16:57:30+05:30
 			{% if post.mixcloud %}
 			<iframe width="100%" height="60" src="{{ post.mixcloud }}" frameborder="0" ></iframe>
 			{% elsif post.promo %}
-				<img src="{{ site.url }}/img/promo/{{ post.promo }}.png" frameborder="0" style="width:100%;"></img>
+				<a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+					<img src="{{ site.url }}/img/promo/{{ post.promo }}.png" frameborder="0" style="width:100%;"></img>
+				</a>
 				<p>{{ post.desc }}</p>
 			{% else %}
 				<p>{{ post.content | strip_html | truncatewords:50 }}</p>
