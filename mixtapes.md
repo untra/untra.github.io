@@ -5,9 +5,9 @@ This is a collection of mixtapes for various french house artists
 * (2011) House Party 2: The Pyjama Jam [soundcloud](https://soundcloud.com/edbangerrecords/house-party-2-the-pyjama-jam)
 * (2017) 45 Days With Justice [soundcloud](https://soundcloud.com/romuald-3/45-days-with-justice)
 * (2017) TGIF Mix 008 - TGIF Mix 008Ed Banger All Stars [soundcloud](https://soundcloud.com/konbiniradio/tgif-mix-007-ed-banger-all-stars-busy-p-cassius-para-one-boston-bun-borussia)
-* (2018) 15 ans
+* (2018) Ed Banger 15 Ans [soundcloud](https://soundcloud.com/commandantcool/ed-banger-15-ans-le-grand-rex)
 
-## Boiler Room
+## Boiler Room [soundcloud](https://soundcloud.com/platform)
 * (2016) Breakbot Boiler Room - #Untaggable [soundcloud](https://soundcloud.com/platform/breakbot)
 
 ## Dimitri from Paris [soundcloud](https://soundcloud.com/dfp)
@@ -35,7 +35,22 @@ This is a collection of mixtapes for various french house artists
 * (2016) Star Tripper [soundcloud](https://soundcloud.com/breakbot/star-tripper)
 * (2018) Another Mixtape [youtube](https://www.youtube.com/watch?v=T14KmtxtB0w) [soundcloud](https://soundcloud.com/breakbot/another-mixtape)
 
-## The Phantoms Revenge
+## The Phantoms Revenge [soundcloud](https://soundcloud.com/thephantomsrevenge)
+* (2010) No Dynamite [mixcloud](https://www.mixcloud.com/untra/the-phantoms-revenge-no-dynamite/)
+* (2010) No More Blowing Up [mixcloud](https://www.mixcloud.com/untra/the-phantoms-revenge-no-more-blowing-up/)
+* (2011) His Dudeness [mixcloud](https://www.mixcloud.com/untra/the-phantoms-revenge-his-dudeness/)
+* (2011) Guest Mix for Roy Davis Jr [soundcloud](https://soundcloud.com/thephantomsrevenge/guest-mix-for-roy-davis-jr)
+* (2011) Ladies Love Cool James [soundcloud](https://soundcloud.com/thephantomsrevenge/ladieslovecooljame)
+* (2011) Fever 105 Random Minimix [soundcloud](https://soundcloud.com/thephantomsrevenge/fever-105-random-minimix)
+* (2012) Stoned Ripped Twisted [soundcloud](https://soundcloud.com/thephantomsrevenge/stoned-ripped-twisted)
+* (2012) My Name is Patrick Bateman [soundcloud](https://soundcloud.com/thephantomsrevenge/mynameispatrickbateman)
+* (2013) The Warriors [soundcloud](https://soundcloud.com/thephantomsrevenge/thewarriors)
+* (2013) The real title is too long to fit in here [soundcloud](https://soundcloud.com/thephantomsrevenge/faketitties)
+* (2016) I Got Drunk and I Had This Dream About Riding Sharks
+* (2016) Guest Mix for Trax Central [soundcloud](https://soundcloud.com/thephantomsrevenge/guestmixtraxcentral)
+* (2016) Broken Haze / Cloud Castle Radio X Raid System Guest Mix [soundcloud](https://soundcloud.com/thephantomsrevenge/cloudcastleradioguestmix)
+* (2016) Michael Knight Leather Jacket [soundcloud](https://soundcloud.com/thephantomsrevenge/michaelknight)
+* (2017) DJ DVD Rip 101 [soundcloud](https://soundcloud.com/thephantomsrevenge/djdvdrip101)
 
 ## Louis La Roche
 
@@ -83,3 +98,19 @@ This is a collection of mixtapes for various french house artists
 
 ## NeonKidz
 * (2013) NeonKiz x Breakbot w/ Irfane [mixcloud](https://www.mixcloud.com/ben-lee2/neonkidz-x-breakbot-with-irfane-opening-dj-set/)
+
+## Go Go Bizkitt!
+* (2011) Just For You vol 1 [soundcloud](https://soundcloud.com/gogobizkitt/just-for-you-mixtape)
+* (2012) Just For You vol 2 [soundcloud](https://soundcloud.com/gogobizkitt/just-for-you-vol-2)
+* (2012) Just For You vol 3 [soundcloud](https://soundcloud.com/gogobizkitt/just-for-you-vol-3)
+* (2013) Just For You vol 4 [soundcloud](https://soundcloud.com/gogobizkitt/just-for-you-vol-4)
+* (2016) Just For You vol 5 [soundcloud](https://soundcloud.com/gogobizkitt/just-for-you-vol-5)
+* (2018) Just For You vol 6 [soundcloud](https://soundcloud.com/gogobizkitt/just-for-you-vol-6)
+
+## Poolside
+* (2013) Contact High Mixtape [soundcloud](https://soundcloud.com/poolside/contact-high-mixtape)
+* (2011) Day Mixtape [soundcloud](https://soundcloud.com/poolside/day-mixtape)
+* (2011) Night Mixtape (missing!) [soundcloud](https://soundcloud.com/poolside_music/night-mixtape)
+* (2012) Seasons Change Mixtape [soundcloud](https://soundcloud.com/poolside/seasons-change)
+* (2012) Night People Mixtape [soundcloud](https://soundcloud.com/poolside/poolside-night-people-dj)
+* (2014) Stir It Up Mixtape [soundcloud](https://soundcloud.com/poolside/poolside-stir-it-up-mixtape)
