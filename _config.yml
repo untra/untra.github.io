@@ -4,7 +4,7 @@ description: "Programmer, Mathematician, "
 url: "http://untra.io"
 author:
   name: "Samuel Volin"
-  email: "untra.sam@gmail.com"
+  email: "sam@untra.io"
   url: "http://www.untra.io"
 
 # Build settings
@@ -38,7 +38,7 @@ ga_domain: 'auto'
 ## In case you ever wanted to find me?
 links:
   twitter: untra
-  email: untra.sam@gmail.com
+  email: sam@untra.io
   github: untra
   reddit: untra
   keybase: untra

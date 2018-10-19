@@ -26,7 +26,7 @@ categories:
 		If ```ga_id``` is present, make sure that ```ga_domain``` is also present.
 	* ```description```: ```A short description of your website to be included in meta tag of your homepage```
 	* ```keywords``` : ```a few frequently used keywords on your site```
-	* ```links``` : This vriable has a few commonly used social networks' links
+	* ```links``` : This variable has a few commonly used social networks' links
 		* ```facebook```: ```facebookId```
 		* ```twitter``` : ```twitterHandle```
 		* ```email```: ```email@example.com```
