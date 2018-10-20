@@ -8,7 +8,7 @@ sitemap:
 ---
 ## About Samuel Volin
 Hello! I am **Samuel Volin**
-@untra 💎 [_email_]<sam@untra.io> - [_keybase_](https://keybase.io/untra) - [_github_](https://github.com/untra) - [_twitter_](https://twitter.com/untra) - [_linkedin_](https://www.linkedin.com/in/untra/) - [_eth address_](https://etherscan.io/address/0x0570b8f2ee4dc8b710bf0c18269b3902857cfdca)
+@untra 💎 <sam@untra.io> - [_keybase_](https://keybase.io/untra) - [_github_](https://github.com/untra) - [_twitter_](https://twitter.com/untra) - [_linkedin_](https://www.linkedin.com/in/untra/) - [_eth address_](https://etherscan.io/address/0x0570b8f2ee4dc8b710bf0c18269b3902857cfdca)
 
 Programming is more than a skill, it is a craft.
 
@@ -18,7 +18,7 @@ I am a professional Software Developer, currently residing in **Boulder, Colorad
 
 * I am currently employed at [_LogRhythm_](https://logrhythm.com/)
 * I am a Programmer, Mathematician, Rad Dude & Your Friend
-* I currently enjoy working with [_elixir_](https://elixir-lang.org/) & [_phoenix_](http://phoenixframework.org/) for my side projects
+* I currently enjoy working with [_typescript_](https://www.typescriptlang.org/), [_go_](https://golang.org/) [_elixir_]((https://elixir-lang.org/)
 
 * I like to ski in the winter and ride my bike in the summer
 * I listen to French disco music on [_mixcloud_](https://www.mixcloud.com/untra/)
