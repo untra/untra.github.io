@@ -64,3 +64,7 @@ var list = ["Linux User 💻", "Flannel Fiend 👕", "Peach Main 🍑", "French 
 var item = list[Math.floor(Math.random()*list.length)];
 document.getElementById("narcissism").innerHTML = item;
 
+document.querySelector('[dark-toggle]').addEventListener('click', function() {
+	document.body.classList.toggle('night');
+});
+

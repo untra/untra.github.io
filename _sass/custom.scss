@@ -14,3 +14,15 @@
   background-position: center;
 	/* width and height can be anything, as long as they're equal */
 }
+
+.night {
+  background-color: #111;
+  color: #eee;
+}
+
+[dark-toggle] {
+  background-color: #111;
+  border: 1px solid #aaa;
+  color: #eee;
+  font-style: italic;
+}
