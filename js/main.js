@@ -63,8 +63,10 @@ modeClick();
 var list = ["Linux User 💻", "Flannel Fiend 👕", "Peach Main 🍑", "French House Aficionado 🎹","Beer Connoisseur 🍻","Coloradan 🏴󠁵󠁳󠁣󠁯󠁿","Boulderite 🌄","Ski Bum ⛷", "Grill Master 🍖", "Lord of the Dance 🕺", "Nice Young Jewish Boy 👨", "'); DROP TABLE Posts;--", "something else I forget", "Untra 💎", "AV Clubber 📼", "Danger Noodle 🐍", "Rad Dude 👈😎👈", "Your Friend 👈😎👈"];
 var item = list[Math.floor(Math.random()*list.length)];
 document.getElementById("narcissism").innerHTML = item;
-
-document.querySelector('[dark-toggle]').addEventListener('click', function() {
-	document.body.classList.toggle('night');
-});
+var darkToggle = document.querySelector('[dark-toggle]')
+if (darkToggle) {
+	darkToggle.addEventListener('click', function() {
+		document.body.classList.toggle('night');
+	});
+}
 

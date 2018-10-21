@@ -1,11 +1,11 @@
 # Site settings
 title: Untra - Samuel Volin
 description: "Programmer, Mathematician, "
-url: "http://untra.io"
+url: "https://untra.io"
 author:
   name: "Samuel Volin"
   email: "sam@untra.io"
-  url: "http://www.untra.io"
+  url: "https://www.untra.io"
 
 # Build settings
 baseurl: "" # Change this to your relative path (ex: /blog/), or leave just a /
@@ -43,3 +43,4 @@ links:
   reddit: untra
   keybase: untra
   mixcloud: untra
+  linkedin: untra
