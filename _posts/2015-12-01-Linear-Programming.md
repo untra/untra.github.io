@@ -7,6 +7,5 @@ mathjax: True
 keywords: [Linear Programming]
 desc: Lear Programming Cheatsheet
 ---
-# Linear Programming
 
-Minimize $$ C^T X $$ such that $$ Ax = b $$
+Minimize $$ C^{T}X $$ such that $$ Ax=b $$
