@@ -18,6 +18,13 @@
 .night {
   background-color: #111;
   color: #eee;
+  &.blockquote {
+    background-color: #333;
+    content: "But there a lot of wrong ways";
+  }
+  &[dark-toggle] {
+    content: "Day Mode"
+  }
 }
 
 [dark-toggle] {

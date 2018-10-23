@@ -28,8 +28,6 @@ I have navigated fulfillment of FIPS 140-2 requirements for a project. I have br
 
 ## 🤹 Technical Skills
 
-### Languages & Frameworks
-
 I currently enjoy working with [_Typescript_](https://www.typescriptlang.org/), [_Go_](https://golang.org/) and [_Elixir_](https://elixir-lang.org/) . I also have familiarity and experience working in _Java_, _C_ and _Ruby_ .
 
 ### Philosophies
@@ -37,7 +35,9 @@ I currently enjoy working with [_Typescript_](https://www.typescriptlang.org/), 
 I am familiar with both the _Object Oriented Programming_ and _Functional Programming_
  software design philosophies. I have strong opinions about both of these, ask me about them.
 
-I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies. I have a few other opinions about these, but my convictions here aren't as strongly held.
+I also adhere loosely to the design philosophy of _Railway Oriented Programming_ and _Test Driven Development_.
+
+I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies.
 
 > There is no one right way to build software.
 
