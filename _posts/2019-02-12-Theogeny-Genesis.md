@@ -3,7 +3,7 @@ layout: post
 title: "Genesis and Theogeny: Symmetric Myths of Creation"
 date: 2012-10-29 12:00:00
 keywords: [genesis, pandora, eve, theogeny]
-promo: "genesis and theogeny"
+promo: "genesis"
 desc: The Grecan and Christian creation myths compared for simmilarities.
 ---
 
