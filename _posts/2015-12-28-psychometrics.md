@@ -39,4 +39,4 @@ As we get up closer to 30 and 31, there will be more ways to take the test and a
 
 I think personality tests and psychometrics are pseudoscience. But the Social Styles test has a bell curve baked into it. Trying to analyze large-scale results of this test requires fighting a skew that puts most candidates towards a central score. If the tests participants answered randomly, the results would be exactly the same. Bad mathematics were baked into this test.
 
-What makes the Social Styles test interesting is the quadrants people land in, labeling them as *Driving, Amiable, Analytical or Expressive*. Because a bell curve is baked into the test, the results of the test are skewed. When you try to show a scatterplot of peoples scores, it will come up meaningless.
+What makes the Social Styles test interesting is the quadrants people land in, labeling them as *Driving, Amiable, Analytical or Expressive*. But because a bell curve is baked into the test, the results of the test are skewed. When you try to show a scatterplot of peoples scores, most folks will inadvertantly appear kewed into the center. Outliers may stand out, but that doesn't

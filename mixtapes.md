@@ -1,3 +1,12 @@
+---
+layout: page
+title: Mixtapes
+permalink: /mixtapes
+sitemap:
+    priority: 1.0
+    changefreq: weekly
+    lastmod: 2019-04-04T16:31:30+05:30
+---
 # Mixtapes
 This is a collection of mixtapes for various french house artists
 
