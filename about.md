@@ -65,4 +65,4 @@ I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies
 ## 🏗️ Projects
 * CUFCQ
 * Jekyll Polyglot
-* Rectangl.us
+* Naivetable
