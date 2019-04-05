@@ -57,10 +57,10 @@ ga_id: 'UA-73082006-1'
 ga_domain: 'auto'
 
 navitems:
-  "Sammich in Israel": http://israelsammich.blogspot.com/
-  "Colorado CompSci": https://cocompsci.blogspot.com/
-  "Jekyll Polyglot": https://polyglot.untra.io/
-  "Naivetable": https://www.npmjs.com/package/@untra/naivetable
+  - [ "Sammich in Israel", "http://israelsammich.blogspot.com/"]
+  - [ "Colorado CompSci", "https://cocompsci.blogspot.com/"]
+  - [ "Jekyll Polyglot", "https://polyglot.untra.io/"]
+  - [ "Naivetable", "https://www.npmjs.com/package/@untra/naivetable"]
 
 ## In case you ever wanted to find me?
 links:

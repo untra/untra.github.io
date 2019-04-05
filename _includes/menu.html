@@ -1,26 +1,29 @@
-<nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
+<nav {% if site.reverse == true %}id="nav-left" {% else %}id="nav" {% endif %}>
 	<div id="nav-list">
 		<div class="circle"></div>
 		<a href="/">Home</a>
 
 		<!-- Nav pages -->
-	  {% for page in site.pages %}
-	    {% if page.layout == "page" %}
-	      <a href="{% if site.baseurl == "/" %}{{ page.url }}{% else %}{{ page.url | prepend: site.baseurl }}{% endif %}" title="{{ page.title }}">{{ page.title }}</a>
-	    {% endif %}
+		{% for page in site.pages %}
+		{% if page.layout == "page" %}
+		<a href="{% if site.baseurl == "/" %}{{ page.url }}{% else %}{{ page.url | prepend: site.baseurl }}{% endif %}"
+			title="{{ page.title }}">{{ page.title }}</a>
+		{% endif %}
 		{% endfor %}
 
-		<!-- Nav pages -->
-		{% for page, url in site.navitems %}
-			<small><a href="{{ url }}">page</a></small>
+		<hr>
+
+		<!-- Nav items -->
+		{% for page in site.navitems %}
+		<small><a href="{{ page[0] }}">{{page[1]}}</a></small>
 		{% endfor %}
 
-    <!-- Nav links -->
-	  {% include link.html %}
+		<!-- Nav links -->
+		{% include link.html %}
 
 	</div>
 
-  <!-- Nav footer -->
+	<!-- Nav footer -->
 	<span class="footer">Programmer, Mathematician, Rad Dude & Your Friend 💎</span>
 
 </nav>
