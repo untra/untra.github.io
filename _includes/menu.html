@@ -11,17 +11,17 @@
 		{% endif %}
 		{% endfor %}
 
-		<!-- Nav items -->
-		{% for page in site.navitems %}
-		<small><a href="{{ page[1] }}">{{page[0]}}</a></small>
-		{% endfor %}
 
 		<!-- Nav links -->
 		{% include link.html %}
 
 	</div>
-
 	<!-- Nav footer -->
-	<span class="footer">Programmer, Mathematician, Rad Dude & Your Friend 💎</span>
+	<span class="footer">
+		<!-- Nav items -->
+		{% for page in site.navitems %}
+		<small><a href="{{ page[1] }}">{{page[0]}}</a></small>
+		{% endfor %}
+	</span>
 
 </nav>
