@@ -5,7 +5,7 @@ url: "https://untra.io"
 author:
   name: "Samuel Volin"
   email: "sam@untra.io"
-  url: "https://www.untra.io"
+  url: "https://untra.io"
 
 # Build settings
 baseurl: "" # Change this to your relative path (ex: /blog/), or leave just a /
@@ -57,10 +57,10 @@ ga_id: 'UA-73082006-1'
 ga_domain: 'auto'
 
 navitems:
-  - [ "#️🔲Naivetable", "https://naivetable.untra.io/"]
+  - [ "🍱Naivetable", "https://naivetable.untra.io/"]
   - [ "💬Jekyll Polyglot", "https://polyglot.untra.io/"]
-  - [ "Sammich in Israel", "http://israelsammich.blogspot.com/"]
-  - [ "Colorado CompSci", "https://cocompsci.blogspot.com/"]
+  - [ "📷Sammich in Israel", "http://israelsammich.blogspot.com/"]
+  - [ "💾Colorado CompSci", "https://cocompsci.blogspot.com/"]
 
 
 ## In case you ever wanted to find me?
