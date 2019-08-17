@@ -13,8 +13,6 @@ These are the lessons of computer science, software engineering, life and philos
 
 > ## Laws
 
-These are lessons known to others as "laws", and rightfully so.
-
 ### Moore's Law
 The observation that the number of transistors in integrated circuits would double every two-five years. This prediction has held true since its inception in 1965 to around 2015; computers kept becoming faster and their performance and durability increased as well.
 
@@ -23,7 +21,6 @@ Moore's law has significantly declined. While computers have gotten exponentiall
 ### Eroom's Law
 
 The observation that advances in biotechnology and drug discovery has doubled approximately every nine years. This phenomena was identified in the 1980's, and is named as the reciprocal to Moore's law. The causes of Eroom's Law are multiple (regulation, extraneous resources, no low-hanging fruit, etc.) but, like Moore's law, is exponential in its force.
-
 
 ### Law of Diminishing Returns
 
@@ -36,12 +33,6 @@ The S in SOLID states the importance of classes and modules remaining focused in
 
 ### Software Engineering is a Team Sport
 Do not forget this; writing software means collaboration and communication. Like all great human works, its creation is rarely done by one tenacious individual in a long sitting. The myth of the lone programmer hacking out legendary code through the sheer autistic will of his own programming expertise is exactly that; a myth. Software is built by at least one team of people, and great software is written by a team of friends.
-
-###
-
-###
-
-> ## Programming
 
 ### Assume Reasonable Defaults
 
@@ -57,7 +48,8 @@ Every interesting thing a computer does is mutations of existing state; the chan
 
 ### Simple and Dumb is preferable to Complex and Smart
 
-### Garbage in, garbage out.
+### Garbage in, garbage out
+If you are performing statics or machine learning or any general variety of linear regression, make sure that your data as sampled is clean and consistent and conducive to the modeling you intend to perform. Bad Data will give bad results from which bad conclusions will be derived. Make sure the feedback you are receiving is the intended feedback you want.
 
 ### CAP Theorem
 Cap theorem states that any distributed store of state cannot provide more than two of the following guarantees:
@@ -65,6 +57,8 @@ Cap theorem states that any distributed store of state cannot provide more than 
 * **Consistency**: Every read request receives the most recent write (but maybe an error)
 * **Availability**: Every request receives a response (but never an error)
 * **Partition Tolerance**: The system continues to operate despite a physical split or replication of the storage.
+
+CAP theorem applies to just about every database, document store or at-rest state. This ties into _there is no right way to do software engineering_; the tools you decide to use cannot always be golden hammers, and a good software engineer will know to study the nuances of their resources.
 
 ### Sorting takes O(n log n) , sorted search takes O (log n)
 This nuance is important to remember. What is easier, getting organized or staying organized? if you have a sorted list or a binary search tree, you can have very efficient log n access if you perform reasonable maintenance to keep your index sorted. Becoming organized takes a lot of effort, but staying organized takes far less.
@@ -85,15 +79,17 @@ This nuance is important to remember. What is easier, getting organized or stayi
 ### Transitions are hard; Change is good.
 
 ### _"Can a man still be brave if he's afraid?" "That is the only time a man can be brave."_
+\- Bran Stark to Eddard Stark
 
 ### Its not about how hard you fall, but about how quickly you get back up.
 
-### Favor Multi-taskers to Uni-taskers
+### _"Favor Multitaskers to Unitaskers"_
 \- Alton Brown
 
 ### Kill your darlings
 
-### _"Sometimes it may feel like the world is ending, but it is not. Remember; the world has never ended before."_
+### _"Sometimes it may feel like the world is ending, but it is not. Remember the world has never ended before, and if it does you'll have fewer problems."_
+\- Jonathon Myers
 
 
 
