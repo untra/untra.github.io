@@ -102,7 +102,10 @@ Cap theorem states that any distributed store of state cannot provide more than 
 CAP theorem applies to just about every database, document store or at-rest state. This ties into _there is no right way to do software engineering_; the tools you decide to use cannot always be golden hammers, and a good software engineer will know to study the nuances of their resources.
 
 ### Sorting takes O(n log n) , sorted search takes O (log n)
-This nuance is important to remember. What is easier, getting organized or staying organized? if you have a sorted list or a binary search tree, you can have very efficient log n access if you perform reasonable maintenance to keep your index sorted. Becoming organized takes a lot of effort, but staying organized takes far less.
+This nuance is important to remember. What is easier, getting organized or staying organized? If you have a sorted list or a binary search tree, you can have very efficient log n access if you perform reasonable maintenance to keep your index sorted. Becoming organized takes a lot of effort, but staying organized takes far less.
+
+### You cannot change what you cannot first measure.
+Performance should always take second place to function. If it worked at all is a prerequisite to working efficiently. But improvement first requires measurement. That's why every great training montage starts with a weigh-in on a scale.
 
 ### _"Premature optimization is the root of all evil."_
 \- Donald Knuth
@@ -115,8 +118,6 @@ This nuance is important to remember. What is easier, getting organized or stayi
 ### _"Do not declare victory until the party has started."_
 \- Sam Volin
 
-### You cannot change what you cannot first measure.
-
 ### Transitions are hard; Change is good.
 
 ### _"Can a man still be brave if he's afraid?" "That is the only time a man can be brave."_
@@ -127,7 +128,8 @@ This nuance is important to remember. What is easier, getting organized or stayi
 ### _"Favor Multitaskers to Unitaskers"_
 \- Alton Brown
 
-### Kill your darlings
+### _"In writing, you must kill all your darlings."_
+\- William Faulkner
 
 ### _"Sometimes it may feel like the world is ending, but it is not. Remember the world has never ended before, and if it does you'll just have fewer problems."_
 \- Jonathon Myers

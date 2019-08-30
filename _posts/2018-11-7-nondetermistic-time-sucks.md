@@ -22,6 +22,8 @@ A regex being applied to each message sent over the wire had a small edit added 
 
 Coding Horror has a good explanation of this [phenomena](https://blog.codinghorror.com/regex-performance/).
 
+Edit: cloudflare experienced a [self-induced outage](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/) on July 2nd 2019 due to poor backtracking regex performance.
+
 #### Vagrant sync_files pointed to /tmp can choke running applications
 point your vm config to a folder to sync files here from your host machine to your guest machine:
 
