@@ -41,10 +41,10 @@ I think personality tests and psychometrics are pseudoscience. But the Social St
 
 What might make the Social Styles test interesting is the quadrants people land in, labeling them as *Driving, Amiable, Analytical or Expressive*. But because a bell curve is baked into the test, the results of the test are skewed. When you try to show a scatterplot of peoples scores, most folks will inadvertently appear skewed into the center. Outliers may stand out, but that doesn't help.
 
-Funadamentally these products are dogshit.
+Fundamentally these products just don't help.
 
 > ### SOCIAL STYLE Navigator is a robust micro-learning application designed to help people APPLY SOCIAL STYLE® program strategies to real-world/real-time workplace scenarios.
 
-This stuff is wacky nonsense. And any business is certainly allowed to purchase and apply such as a dogshit product. And the TRACOM group has (and imho should have) every legal right to sell this dogshit product to idiot consumers.
+This stuff is wacky nonsense. And any business is certainly allowed to purchase and apply such as a dogshit product. And the TRACOM group has (and should have) every legal right to sell this unhelpful product to idiot consumers.
 
-But I'm not going to work for any business foolish enough to purchase, employ and consult for psychometrics. The psychology science isn't even 100% in this field, but this product is just closer to zero. The TRACOM group Social Styles tests are dogshit, but that they misuse mathematics so nonchalantly is what really upsets me.
+But I'm not going to work for any business foolish enough to purchase, employ and consult for psychometrics. The psychology science isn't even 100% in this field, but this product is just closer to zero. The TRACOM group Social Styles tests are wastes, but that they misuse mathematics so nonchalantly is what really upsets me here.

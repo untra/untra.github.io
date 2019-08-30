@@ -45,7 +45,7 @@ I'll edit in this story another time...
 #### Python fails to compile due to mixed/missing extra tab/space
 * see also: https://unspecified.wordpress.com/2011/10/18/why-pythons-whitespace-rule-is-right/
 
-Mixing tabs and spaces in code is considered bad style, especially today when we have excellent editors that helped ensure consistancy if whichever style we prefer (the answer is spaces you savages).
+Mixing tabs and spaces in code is considered bad style, especially today when we have excellent editors that helped ensure consistancy with whichever preference (the answer is spaces you savages).
 
 But when you don't have an editor cleaning up after you, and you're using an older version of python 2.4, and suddenly your code doesn't compile with a cryptic error message (the messages are better now, btw)
 
@@ -70,9 +70,13 @@ All it takes in ECMAScript2018 javascript to return a new state object:
 const objClone = { ...obj };
 ```
 
-C'mon, thats so slick! but if you introduce any little mutations, especially on a signficiantly nested `obj`, those may persist on the `objClone`.
+C'mon, thats so slick! but if you introduce any little mutations, especially on a significantly nested `obj`, those may persist on the `objClone`.
 
 And suddenly your single source of truth is _full of lies_.
 
-#### Conclusion
+#### The UTF-8 BOM
+
+[salt file.contains module will throw when attempting to parse utf-8 encoded files with BOM](https://github.com/saltstack/salt/issues/54357)
+
+## Conclusion
 Keeping a record of where you have thrashed as a developer helps keep yourself humble. Software can be tricky, and computers are fickle. But the next time you are stuck and confused, reflecting on your past nondeterministic-time-suck-tar-pits becomes a resource you can rely on later.
