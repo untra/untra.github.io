@@ -8,7 +8,7 @@ author:
   url: "https://untra.io"
 
 # Build settings
-baseurl: "" # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: "" # Change this to your relative path (ex: /blog), or leave it empty
 markdown: kramdown
 source: .
 destination: ./_site
@@ -16,7 +16,7 @@ permalink: /:title
 paginate: 8
 paginate_path: /page:num/
 
-# Default values
+# Default layout values
 defaults:
   -
     scope:
@@ -37,6 +37,7 @@ keywords:
   - Software Engineer
   - Super Gorgeous Programmer
   - Like Seriously You Should Date Him
+  - so hawt
   - Colorado
   - Denver
   - Boulder
@@ -52,10 +53,11 @@ keywords:
 
 reverse: true
 
-#set this to enable google analytics
+# set this to enable google analytics
 ga_id: 'UA-73082006-1'
 ga_domain: 'auto'
 
+# off-site navigations under the hosted
 navitems:
   - [ "🍱Naivetable", "https://naivetable.untra.io/"]
   - [ "💬Jekyll Polyglot", "https://polyglot.untra.io/"]
@@ -63,7 +65,7 @@ navitems:
   - [ "💾Colorado CompSci", "https://cocompsci.blogspot.com/"]
 
 
-## In case you ever wanted to find me?
+# In case you ever wanted to find me?
 links:
   twitter: untra
   email: sam@untra.io
