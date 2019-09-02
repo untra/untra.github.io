@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Optimization 3 - Convex Analysis"
+title:  "Optimization - Convex Analysis Review"
 date:   2016-01-24 17:00:00
 mathjax: True
 keywords: [convex analysis, convex, analysis, extreme points, polytope, polyhedra, polyhedron, andréasson]

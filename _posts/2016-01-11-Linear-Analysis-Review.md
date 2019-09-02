@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Optimization 1 - Linear Algebra Review"
+title:  "Optimization - Linear Algebra Review"
 date:   2016-01-11 17:00:00
 mathjax: True
 keywords: [linear algebra, linear, algebra, review, cheat sheet, vectors, andréasson, spina, square matrices, nonsingular, positive definite, positive semidefinite, eigenvalues]
