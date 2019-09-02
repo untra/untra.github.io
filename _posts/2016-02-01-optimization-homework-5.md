@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Optimization 5 - Homework 5"
+title:  "Optimization - Homework 5"
 date:   2016-02-01 17:00:00
 mathjax: True
 published: False
