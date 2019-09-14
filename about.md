@@ -22,13 +22,17 @@ Good software is not conceived, it is developed over time, preferably by a team 
 
 I am a professional Software Developer, currently residing in **Boulder, Colorado**. I am passionate about mathematics, functional programming, software engineering, polyglot programming, network security, cryptography, and developer operations.
 
-I am currently employed at [_LogRhythm_](https://logrhythm.com/)
+I was previously employed at [_LogRhythm_](https://logrhythm.com/) 💠
 
-I have navigated fulfillment of FIPS 140-2 requirements for a project. I have broken monoliths into microservices. I have shoveled legacy code into tested & automated nightly builds and all of it again in <button dark-toggle aria-hidden>Night mode</button>
+I have navigated fulfillment of FIPS 140-2 requirements for a project. I have broken monoliths into microservices. I have shoveled legacy code into tested & automated nightly builds and all of it again in <button dark-toggle aria-hidden>Night mode</button>. My tenure at LogRhythm taught me the importance of customer collaboration, automation of operations, and open technical perspectives. Those experiences taught me to recognize simple solutions and how to mentally begin to address chicken and egg problems.
+
+I am currently employed at [_StackHawk_](https://stackhawk.com) 🦅
 
 ## 🤹 Technical Skills
 
 I currently enjoy working with [_Typescript_](https://www.typescriptlang.org/), [_Go_](https://golang.org/) and [_Elixir_](https://elixir-lang.org/) . I also have familiarity and experience working in _Java_, _C_ and _Ruby_ .
+
+My new favorite shiny thing right now is [_Terraform_](https://terraform.io)
 
 ### Philosophies
 
@@ -42,7 +46,8 @@ I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies
 > There is no one right way to build software.
 
 ## 🛠️ Employment
-*  **Software Engineer**, LogRhythm (2016 - present)
+*  **Junior Fullstack Engineer**, StackHawk (2019 - present)
+*  **Software Engineer**, LogRhythm (2016 - 2019)
 *  **Software Engineering Intern**, LogRhythm (2015-2016)
 *  **Student Assistant**, OIT Network Security & Information Risk (2013-2015)
 
@@ -53,8 +58,8 @@ I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies
 * **Overland High School** (2009-2012)
 
 ## 🏨 Conferences
-* (attended) ElixirConf - September 2017, Bellevue WA
 * (attended) LambdaConf - June 2018, Boulder CO
+* (attended) ElixirConf - September 2017, Bellevue WA
 
 ## 👨‍💻 Hackathons
 * (observed) EthDenver Hackathon - February 2018, Denver CO
