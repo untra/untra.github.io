@@ -2,19 +2,24 @@
 	<!-- Meta -->
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
 	<meta name="generator" content="Jekyll">
-	{% if site.links.github %}
-	<meta name="author" content="{{ site.links.github }}">
+	<meta name="author" content="{{ site.author.name }}">
+	<meta property="og:url" content="{{ page.url }}" />
+	<meta property="og:title" content="The Rock" />
+	<meta property="og:type" content="text/html" />
+	{% if page.promo %}
+	<meta property="og:image" content="{{ site.url }}/img/promo/{{ post.promo }}.png" />
 	{% endif %}
 	{% if page.keywords %}
 	<meta name="keywords" content="{{ page.keywords | concat: site.keywords }}" />
 	{% else %}
 	<meta name="keywords" content="{{ site.keywords }}" />
 	{% endif %}
-	{% if page.desc %}
+	{% if page.desc && %}
 	<meta name="desc" content="{{ page.desc }}" />
 	{% else %}
-	 <meta name="desc" content="{{ site.desc }}" />
+	 <meta name="desc" content="{{ site.description }}" />
 	{% endif %}
 	<meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" >
 	<title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
