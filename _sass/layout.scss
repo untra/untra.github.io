@@ -2,20 +2,24 @@
 
 /* Navigation */
 
-#nav, #nav-left {
+#nav,
+#nav-left {
   a {
     display: block;
     color: $background-color;
     padding: 0.33334em 0;
     font-size: 1.5em;
     font-weight: 400;
+
     &:hover {
       background-color: lighten($main-color, 5%);
     }
   }
+
   span {
-      font-weight: 200;
-    }
+    font-weight: 200;
+  }
+
   .circle {
     display: block;
   }
@@ -65,7 +69,9 @@
   width: 1.5em;
   background-color: lighten($text-color, 35%);
   margin-top: 8px;
-  &:after, &:before {
+
+  &:after,
+  &:before {
     content: "";
     display: block;
     position: relative;
@@ -74,29 +80,34 @@
     background-color: lighten($text-color, 35%);
     transition: all 0.3s ease-in;
   }
+
   &:before {
     top: -8px;
   }
+
   &:after {
     top: 4px;
   }
+
   &.btn-close {
     background: none;
   }
+
   &.btn-close:before {
     top: 0;
     -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     background-color: $background-color;
   }
+
   &.btn-close:after {
     top: -4px;
     -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     background-color: $background-color;
   }
 }
@@ -106,20 +117,24 @@
 .fixed {
   position: fixed;
   width: 100%;
+
   @media (min-width: 940px) {
     position: static;
   }
 }
 
 #container {
-  margin:0 auto;
-  width: 40%;
-	max-width: 1280px;
-	padding: 0 1.5rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 1.5rem;
+
+  @media (min-width: 940px) {
+    width: 40%;
+  }
 }
 
 #header {
-	text-align: center;
+  text-align: center;
   padding: 130px 0;
   position: relative;
   height: 275px;
@@ -129,18 +144,21 @@
   background-repeat: no-repeat;
   background-size: 750px 200px;
   background-position: center top;
+
   a {
-  	text-decoration: none;
-  	color: $header-text-color;
-  	display: inline-block;
+    text-decoration: none;
+    color: $header-text-color;
+    display: inline-block;
   }
+
   img {
-  	max-height: 72px;
-  	margin: 0 auto;
-  	display: block;
+    max-height: 72px;
+    margin: 0 auto;
+    display: block;
   }
+
   h1 {
-  	font-family: 'Signika', sans-serif; //Emerald logo font
+    font-family: 'Signika', sans-serif; //Emerald logo font
     font-weight: 600;
   }
 }
@@ -155,31 +173,37 @@
 
 #post-page {
   margin-bottom: 1.5em;
+
   @media (min-width: 940px) {
-      margin-bottom: 1.3334em;
-    }
+    margin-bottom: 1.3334em;
+  }
 }
 
 .post+.post:before {
-    display: block;
-    content: '';
-    width: 5rem;
-    height: 1px;
-    margin: 23px auto;
-    background-color: lighten($text-color, 70%);
-  }
+  display: block;
+  content: '';
+  width: 5rem;
+  height: 1px;
+  margin: 23px auto;
+  background-color: lighten($text-color, 70%);
+}
 
 .by-line {
   display: block;
   color: lighten($text-color, 25%);
-  line-height: 1.5em; /* 24px/16px */
-  margin-bottom: 1.5em; /* 24px/16px */
+  line-height: 1.5em;
+  /* 24px/16px */
+  margin-bottom: 1.5em;
+  /* 24px/16px */
   font-weight: 200;
+
   @media (min-width: 940px) {
     display: block;
     color: lighten($text-color, 25%);
-    line-height: 1.3334em; /* 24px/18px */
-    margin-bottom: 1.3334em; /* 24px/18px */
+    line-height: 1.3334em;
+    /* 24px/18px */
+    margin-bottom: 1.3334em;
+    /* 24px/18px */
     font-weight: 200;
   }
 }
@@ -190,14 +214,14 @@ img {
   margin: 0 auto;
   margin-bottom: 24px;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
 }
 
 img[title="Emerald"] {
-    box-shadow: 0 2px 6px #ddd;
-  }
+  box-shadow: 0 2px 6px #ddd;
+}
 
 code {
   color: lighten($text-color, 35%);
@@ -206,17 +230,22 @@ code {
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
 
-.content ul, .content ol {
-  line-height: 1.5em; /* 24px/16px */
+.content ul,
+.content ol {
+  line-height: 1.5em;
+  /* 24px/16px */
   padding-left: 1.5em;
+
   @media (min-width: 940px) {
-    line-height: 1.33334em; /* 24px/18px */
+    line-height: 1.33334em;
+    /* 24px/18px */
   }
 }
 
 /* Pages */
 
-#page ul, #page ol {
+#page ul,
+#page ol {
   padding-left: 1.5em;
 }
 
@@ -225,14 +254,17 @@ code {
 .pagination {
   text-align: center;
   margin: 2.666668em;
+
   span {
     background-color: darken($background-color, 5%);
     color: $text-color;
   }
+
   a:hover {
     background-color: lighten($main-color, 5%);
   }
 }
+
 .page-item {
   background-color: $main-color;
   color: $background-color;
@@ -240,9 +272,9 @@ code {
   font-weight: 400;
   padding: 0.5em 1em;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* Footer */
