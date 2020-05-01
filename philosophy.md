@@ -51,6 +51,15 @@ In general, smaller teams working on a cohesive project will produce results mor
 
 > ## Software Engineering
 
+### The Two Hard Problems
+There are two hard problems in computer science:
+
+* _naming things_
+
+* _cache invalidation_
+
+* _off by one errors_
+
 ### Single Responsibility Principle
 The S in SOLID states the importance of classes and modules remaining focused in their intent and application. Code that does one thing, and does it well, becomes trusted and employed by other developers.
 
