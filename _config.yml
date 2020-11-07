@@ -59,6 +59,7 @@ ga_domain: 'auto'
 
 # off-site navigations under the hosted
 navitems:
+  - [ "🔁Naiveasync", "https://naiveasync.untra.io/"]
   - [ "🍱Naivetable", "https://naivetable.untra.io/"]
   - [ "💬Jekyll Polyglot", "https://polyglot.untra.io/"]
   - [ "📷Sammich in Israel", "http://israelsammich.blogspot.com/"]

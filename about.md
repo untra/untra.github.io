@@ -4,7 +4,7 @@ title: About Samuel Volin
 sitemap:
     priority: 1.0
     changefreq: weekly
-    lastmod: 2018-02-26T16:31:30+05:30
+    lastmod: 2020-11-01T16:31:30+05:30
 ---
 ## 💎 Samuel Volin
 Programmer, Mathematician, Rad Dude & Your Friend
@@ -20,7 +20,7 @@ Good software is not conceived, it is developed over time, preferably by a team 
 
 ## 🌄 Currently
 
-I am a professional Software Developer, currently residing in **Boulder, Colorado**. I am passionate about mathematics, functional programming, software engineering, polyglot programming, network security, cryptography, and developer operations.
+I am a professional Software Developer, currently residing in **Denver, Colorado**. I am passionate about mathematics, functional programming, software engineering, polyglot programming, network security, cryptography, and developer operations.
 
 I was previously employed at [_LogRhythm_](https://logrhythm.com/) 💠
 
@@ -28,11 +28,22 @@ I have navigated fulfillment of FIPS 140-2 requirements for a project. I have br
 
 I am currently employed at [_StackHawk_](https://stackhawk.com) 🦅
 
+Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, slack, jira, datadog integrations, began to harness the _the sacred power of the kubectl..._
+
 ## 🤹 Technical Skills
 
-I currently enjoy working with [_Typescript_](https://www.typescriptlang.org/), [_Go_](https://golang.org/) and [_Elixir_](https://elixir-lang.org/) . I also have familiarity and experience working in _Java_, _C_ and _Ruby_ .
+I currently enjoy working with [_Typescript_](https://www.typescriptlang.org/) and [_Kotlin_](https://kotlinlang.org/). Previously I worked significantly with [_Go_](https://golang.org/) and [_Elixir_](https://elixir-lang.org/) . I also have familiarity and experience working in _Java_, _C_ and _Ruby_ .
 
-My new favorite shiny thing right now is [_Terraform_](https://terraform.io)
+I like my frontends in react, angular, vue-js... just as long as its typescript.
+I like my backends in kotlin spring boot, or generated from openapi files.
+I like my notification services stateless
+I like my operations managed with k8s and monitored with grafana
+
+I prefer [_Terraform_](https://terraform.io) to provision replicated environments with IAC
+
+## Tools of the Trade
+
+[vscode](https://code.visualstudio.com/) [intellij](https://www.jetbrains.com/idea/) [better touch tool](https://folivora.ai/) [lens](https://k8slens.dev/) [docker](https://www.docker.com/) [slack](https://slack.com/) [aws](https://aws.amazon.com/) [cypress](https://www.cypress.io/) [zap](https://owasp.org/www-project-zap/) [stackhawk](https://www.stackhawk.com/) [grafana](https://grafana.com/)
 
 ### Philosophies
 
@@ -46,7 +57,8 @@ I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies
 > There is no one right way to build software.
 
 ## 🛠️ Employment
-*  **Junior Fullstack Engineer**, StackHawk (2019 - present)
+*  **Fullstack Engineer**, StackHawk (2020 - present)
+*  **Junior Fullstack Engineer**, StackHawk (2019 - 2020)
 *  **Software Engineer**, LogRhythm (2016 - 2019)
 *  **Software Engineering Intern**, LogRhythm (2015-2016)
 *  **Student Assistant**, OIT Network Security & Information Risk (2013-2015)
@@ -67,7 +79,8 @@ I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies
 * (won 🥈) HackCU 2015 Hackathon - April 2015, Boulder CO
 * (won 🥉) Coinorado Bitcoin Hackathon - November 2014, Boulder CO
 
-## 🏗️ Projects
-* CUFCQ
-* Jekyll Polyglot
-* Naivetable
+## 🏗️ Open Source Projects
+* [CUFCQ](https://github.com/cufcq/cufcq)
+* [Jekyll Polyglot](https://github.com/untra/polyglot)
+* [Naivetable](https://github.com/untra/naivetable)
+* [Naiveasync](https://github.com/untra/naiveasync)
