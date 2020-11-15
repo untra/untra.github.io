@@ -34,16 +34,26 @@ Wrote terraform to provision replicated codebuild jobs across striped environmen
 
 I currently enjoy working with [_Typescript_](https://www.typescriptlang.org/) and [_Kotlin_](https://kotlinlang.org/). Previously I worked significantly with [_Go_](https://golang.org/) and [_Elixir_](https://elixir-lang.org/) . I also have familiarity and experience working in _Java_, _C_ and _Ruby_ .
 
-I like my frontends in react, angular, vue-js... just as long as its typescript.
-I like my backends in kotlin spring boot, or generated from openapi files.
-I like my notification services stateless
-I like my operations managed with k8s and monitored with grafana
+I like my frontends in react, angular, vue-js... just as long as its typescript. 
+I like my backends in kotlin spring boot, or generated from openapi files. 
+I like my notification services stateless. 
+I like my operations managed with k8s and monitored with grafana. 
 
-I prefer [_Terraform_](https://terraform.io) to provision replicated environments with IAC
+I prefer [_Terraform_](https://terraform.io) to provision replicated environments with IAC. 
 
 ## Tools of the Trade
 
-[vscode](https://code.visualstudio.com/) [intellij](https://www.jetbrains.com/idea/) [better touch tool](https://folivora.ai/) [lens](https://k8slens.dev/) [docker](https://www.docker.com/) [slack](https://slack.com/) [aws](https://aws.amazon.com/) [cypress](https://www.cypress.io/) [zap](https://owasp.org/www-project-zap/) [stackhawk](https://www.stackhawk.com/) [grafana](https://grafana.com/)
+* [vscode](https://code.visualstudio.com/)
+* [intellij](https://www.jetbrains.com/idea/)
+* [better touch tool](https://folivora.ai/) for windowing n macros
+* [lens](https://k8slens.dev/) visual UI for k8s its pretty rad
+* [docker](https://www.docker.com/) preferred container
+* [slack](https://slack.com/) preferred team communication mechanism
+* [aws](https://aws.amazon.com/) preferred cloud provider
+* [cypress](https://www.cypress.io/) preferred front end integration test suite
+* [zap](https://owasp.org/www-project-zap/)
+* [stackhawk](https://www.stackhawk.com/)
+* [grafana](https://grafana.com/) preferred 
 
 ### Philosophies
 
