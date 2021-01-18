@@ -43,17 +43,18 @@ I prefer [_Terraform_](https://terraform.io) to provision replicated environment
 
 ## Tools of the Trade
 
-* [vscode](https://code.visualstudio.com/)
-* [intellij](https://www.jetbrains.com/idea/)
+* [vscode](https://code.visualstudio.com/) solid text/programming editor
+* [intellij](https://www.jetbrains.com/idea/) preferred editor for working in a jvm environment
 * [better touch tool](https://folivora.ai/) for windowing n macros
-* [lens](https://k8slens.dev/) visual UI for k8s its pretty rad
-* [docker](https://www.docker.com/) preferred container
+* [lens](https://k8slens.dev/) visual UI for k8s, its pretty rad
+* [docker](https://www.docker.com/) preferred container management solution
 * [slack](https://slack.com/) preferred team communication mechanism
 * [aws](https://aws.amazon.com/) preferred cloud provider
 * [cypress](https://www.cypress.io/) preferred front end integration test suite
-* [zap](https://owasp.org/www-project-zap/)
-* [stackhawk](https://www.stackhawk.com/)
-* [grafana](https://grafana.com/) preferred 
+* [zap](https://owasp.org/www-project-zap/) open source DAST tool
+* [grafana](https://grafana.com/) preferred open sopurce monitoring tool
+* [stackhawk](https://www.stackhawk.com/) pretty awesome DAST and appsec monitoring tool
+* [stackhawk](https://www.logrhythm.com/) pretty decent SIEM
 
 ### Philosophies
 

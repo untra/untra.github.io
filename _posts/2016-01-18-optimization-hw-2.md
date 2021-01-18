@@ -3,6 +3,7 @@ layout: post
 title:  "Optimization - Homework 2"
 date:   2016-01-17 17:00:00
 mathjax: True
+desc: Some classic APPM-4120 Operations Research optimization homework
 ---
 ## Homework Problems
 
