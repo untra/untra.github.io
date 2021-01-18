@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Big Hacks"
-date:   2020-20-24 17:00:00
+date:   2020-12-24 17:00:00
 keywords: [Hacks, Vulnerabilities, Significant]
 desc: My own record of significant publicized hacks, hacking attempts, cves and malware that significantly shaped future computer science.
 ---
