@@ -56,14 +56,14 @@ There are two hard problems in computer science:
 
 * _naming things_
 
-* _cache invalidation_
-
 * _off by one errors_
+
+* _cache invalidation_
 
 ### Single Responsibility Principle
 The S in SOLID states the importance of classes and modules remaining focused in their intent and application. Code that does one thing, and does it well, becomes trusted and employed by other developers.
 
-Complex software must be built on trust, and code with additional side-effects and trapdoors will not be reused. Code that is explicit, simple, and responsible for explicitly doing that one simple thing will be trusted and resued.
+Complex software must be built on trust, and code with additional side-effects and trapdoors will not be reused. Code that is explicit, simple, and responsible for explicitly doing that one simple thing will be trusted and reused.
 
 ### Software Engineering is a Team Sport
 Do not forget this; writing software means collaboration and communication. Like all great human works, its creation is rarely done by one tenacious individual in a long sitting. The myth of the lone programmer hacking out legendary code through the sheer autistic will of his own programming expertise is exactly that; a myth. Software is built by at least one team of people, and great software is written by a team of friends.
@@ -88,7 +88,7 @@ Every interesting thing a computer does is mutations of existing state; the chan
 
 The purely functional world of software programming lives in its walled garden assuming infinite RAM and no external forces that could interact with it.
 
-But the `stdin`, the `stdout`, the accessing of time and entropy are all outside unstable forces that make software really interesting, and will have to be utilized.
+But the `stdin`, the `stdout`, the accessing of time and entropy are all outside unstable forces that make software really interesting, and will have to be utilized to build sufficiently useful software.
 
 ### Simple and Dumb is preferable to Complex and Smart
 
@@ -99,7 +99,9 @@ And yeah, the nail gun is cool and all, but they typically require some form of 
 The tools that humans adopt tend to have the lowest barrier of entry. They should even feel like toys! When it comes to building software, a simple product with multiple uses will take greater advantage of any complex piece of technology that fails to work as effectively.
 
 ### Garbage in, garbage out
-If you are performing statics or machine learning or any general variety of linear regression, make sure that your data as sampled is clean and consistent and conducive to the modeling you intend to perform. Bad Data will give bad results from which bad conclusions will be derived. Make sure the feedback you are receiving is the intended feedback you want.
+If you are performing statics or machine learning or any general variety of linear regression, make sure that your data as sampled is clean and consistent and conducive to the modeling you intend to perform. Bad Data will give bad results from which bad conclusions will be derived. Bad data models will turn into bad robots which will turrn into bad robot conclusions. And those bad conclusions will turn into bad judgements against good people.
+
+Make sure the feedback you are receiving is the intended feedback you want from your input. Measure your models. Give them good inputs and expect good results. Give them garbage inputs and train the models to give 
 
 ### CAP Theorem
 Cap theorem states that any distributed store of state cannot provide more than two of the following guarantees:
@@ -108,10 +110,10 @@ Cap theorem states that any distributed store of state cannot provide more than 
 * **Availability**: Every request receives a response (but never an error)
 * **Partition Tolerance**: The system continues to operate despite a physical split or replication of the storage.
 
-CAP theorem applies to just about every database, document store or at-rest state. This ties into _there is no right way to do software engineering_; the tools you decide to use cannot always be golden hammers, and a good software engineer will know to study the nuances of their resources.
+CAP theorem applies to just about every database, document store or at-rest state. This ties into _there is no right way to do software engineering_; the tools you decide to use cannot always be golden hammers, and a good software engineer will know to study the resources and problem.
 
 ### Sorting takes O(n log n) , sorted search takes O (log n)
-This nuance is important to remember. What is easier, getting organized or staying organized? If you have a sorted list or a binary search tree, you can have very efficient log n access if you perform reasonable maintenance to keep your index sorted. Becoming organized takes a lot of effort, but staying organized takes far less.
+This nuance is important to remember. It means that caching and pre-processed structures can improve performance by given heuristics to algorithms. If you have a sorted list or a binary search tree, you can have very efficient log n access if you perform reasonable maintenance to keep your index sorted. This is a phenomena in real life; Becoming organized takes a lot of effort, but staying organized takes far less.
 
 ### You cannot change what you cannot first measure.
 Performance should always take second place to function. If it worked at all is a prerequisite to working efficiently. But improvement first requires measurement. That's why every great training montage starts with a weigh-in on a scale.
@@ -128,11 +130,13 @@ Performance should always take second place to function. If it worked at all is 
 \- Sam Volin
 
 ### Transitions are hard; Change is good.
+\- Shelly
 
 ### _"Can a man still be brave if he's afraid?" "That is the only time a man can be brave."_
 \- Bran Stark to Eddard Stark
 
 ### Its not about how hard you fall, but about how quickly you get back up.
+\- AB
 
 ### _"Favor Multitaskers to Unitaskers"_
 \- Alton Brown
@@ -143,6 +147,5 @@ Performance should always take second place to function. If it worked at all is 
 ### _"Sometimes it may feel like the world is ending, but it is not. Remember the world has never ended before, and if it does you'll just have fewer problems."_
 \- Jonathon Myers
 
-
-
-
+### _"Never agree to go on an offshore fishing trip with your investors."_
+\- Frank Hassanabad

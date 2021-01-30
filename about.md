@@ -54,16 +54,16 @@ I prefer [_Terraform_](https://terraform.io) to provision replicated environment
 * [zap](https://owasp.org/www-project-zap/) open source DAST tool
 * [grafana](https://grafana.com/) preferred open sopurce monitoring tool
 * [stackhawk](https://www.stackhawk.com/) pretty awesome DAST and appsec monitoring tool
-* [stackhawk](https://www.logrhythm.com/) pretty decent SIEM
+* [logrhythm](https://www.logrhythm.com/) pretty decent SIEM
 
 ### Philosophies
 
 I am familiar with both the _Object Oriented Programming_ and _Functional Programming_
  software design philosophies. I have strong opinions about both of these, ask me about them.
 
-I also adhere loosely to the design philosophy of _Railway Oriented Programming_ and _Test Driven Development_.
+I also adhere loosely to the design philosophies of _Railway Oriented Programming_ and _Test Driven Development_.
 
-I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies.
+I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies, and advise talking to customers.
 
 > There is no one right way to build software.
 
