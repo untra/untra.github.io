@@ -60,7 +60,7 @@ function modeClick() {
 menuClick();
 modeClick();
 
-var list = ["Linux User 💻", "Flannel Fiend 👕", "Peach Main 🍑", "French House Aficionado 🎹", "Beer Connoisseur 🍻", "Coloradan 🏴󠁵󠁳󠁣󠁯󠁿", "Boulderite 🌄", "Ski Bum ⛷", "Grill Master 🍖", "Lord of the Dance 🕺", "Nice Young Jewish Boy 👨", "'); DROP TABLE Posts;--", "something else I forget", "Untra 💎", "AV Clubber 📼", "Danger Noodle 🐍", "Rad Dude 👈😎👈", "Your Friend 👈😎👈", "chicken n egg problems 🐣", "ISO 8601 compliant ⏱️", "ISO/IEC 19790 & FIPS 140-3 🧮", "Flying the Coop 🐤" ];
+var list = ["Linux User 💻", "Flannel Fiend 👕", "Peach Main 🍑", "French House Aficionado 🎹", "Beer Connoisseur 🍻", "Coloradan 🏴󠁵󠁳󠁣󠁯󠁿", "Boulderite 🌄", "Ski Bum ⛷", "Grill Master 🍖", "Lord of the Dance 🕺", "Nice Young Jewish Boy 👨", "'); DROP TABLE Posts;--", "something else I forget", "Untra 💎", "AV Clubber 📼", "Danger Noodle 🐍", "Rad Dude 👈😎👈", "Your Friend 👈😎👈", "chicken n egg problems 🐣", "ISO 8601 compliant ⏱️", "ISO/IEC 19790 & FIPS 140-3 🧮", "Flying the Coop 🐤", "Quinoa Salad 💕", "Jack of all trades", "Main of none" ];
 var item = list[Math.floor(Math.random() * list.length)];
 document.getElementById("narcissism").innerHTML = item;
 var darkToggle = document.querySelector('[dark-toggle]')

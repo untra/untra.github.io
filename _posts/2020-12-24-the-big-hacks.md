@@ -38,3 +38,6 @@ Severity: Memory exposure and private key recovery
 Worst case scenario: An attacker with knowledge of processor hardware and vulnerable code could design efficient malware.
 
 **The takeaway**: this bug is endemic to current intel hardware going back 15 years. Software patches could disable speculative execution at the cost of significant performance decreases. This bug is a big distraction to Intel, and must be navigated around for future chip designs.
+
+**Meme**: 
+[relevant knowYourMeme](https://knowyourmeme.com/memes/cultures/meltdown-and-spectre)
