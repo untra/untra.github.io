@@ -41,7 +41,7 @@ I like my operations managed with k8s and monitored with grafana.
 
 I prefer [_Terraform_](https://terraform.io) to provision replicated environments with IAC. 
 
-## Tools of the Trade
+### Tools of the Trade
 
 * [vscode](https://code.visualstudio.com/) solid text/programming editor
 * [intellij](https://www.jetbrains.com/idea/) preferred editor for working in a jvm environment
