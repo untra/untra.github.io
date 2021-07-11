@@ -98,11 +98,6 @@ And yeah, the nail gun is cool and all, but they typically require some form of 
 
 The tools that humans adopt tend to have the lowest barrier of entry. They should even feel like toys! When it comes to building software, a simple product with multiple uses will take greater advantage of any complex piece of technology that fails to work as effectively.
 
-### Garbage in, garbage out
-If you are performing statics or machine learning or any general variety of linear regression, make sure that your data as sampled is clean and consistent and conducive to the modeling you intend to perform. Bad Data will give bad results from which bad conclusions will be derived. Bad data models will turn into bad robots which will turrn into bad robot conclusions. And those bad conclusions will turn into bad judgements against good people.
-
-Make sure the feedback you are receiving is the intended feedback you want from your input. Measure your models. Give them good inputs and expect good results. Give them garbage inputs and train the models to give 
-
 ### CAP Theorem
 Cap theorem states that any distributed store of state cannot provide more than two of the following guarantees:
 
@@ -113,10 +108,19 @@ Cap theorem states that any distributed store of state cannot provide more than 
 CAP theorem applies to just about every database, document store or at-rest state. This ties into _there is no right way to do software engineering_; the tools you decide to use cannot always be golden hammers, and a good software engineer will know to study the resources and problem.
 
 ### Sorting takes O(n log n) , sorted search takes O (log n)
-This nuance is important to remember. It means that caching and pre-processed structures can improve performance by given heuristics to algorithms. If you have a sorted list or a binary search tree, you can have very efficient log n access if you perform reasonable maintenance to keep your index sorted. This is a phenomena in real life; Becoming organized takes a lot of effort, but staying organized takes far less.
+This nuance is important to remember. It means that caching and pre-processed data structures can improve algorithm performance when fed clean data. If you have a sorted list or a binary search tree, you can have very efficient log n access if you perform reasonable maintenance to keep your index sorted. This is a phenomena in real life; Becoming organized takes a lot of effort, but staying organized takes far less.
+
+Clean data and organization is the recipe for high-performing software.
+
+### Garbage in, garbage out
+If you are performing statistics or machine learning or any general variety of linear regression, make sure that your training data is clean and consistent and conducive to the modeling you intend to perform. Bad Data will give bad results from which bad conclusions will be derived. Bad data models will turn into bad robots which will turrn into bad robot conclusions. And those bad conclusions will turn into bad judgements against good people.
+
+Make sure the feedback you are receiving is the intended feedback you want from your input. Measure your models. Give them good inputs and expect good results. Give them garbage inputs and train the models to indicate "unknown" as a viable conclusion.
+
+It also helps to constrain the scope of the input data. Machine learning to detect credit card fraud is very reasonable; credit card transactions, while being complex and PII sensitive data structures, have finite and bounded shapes that will plot nicely to a convex N-space.
 
 ### You cannot change what you cannot first measure.
-Performance should always take second place to function. If it worked at all is a prerequisite to working efficiently. But improvement first requires measurement. That's why every great training montage starts with a weigh-in on a scale.
+Performance should always take second fiddle to function. Working at all is a prerequisite to working efficiently. But improvement first requires measurement. That's why every great training montage starts with a weigh-in on a scale: there is no victory in progress without first seeing how much effort it takes to achieve that progress.
 
 ### _"Premature optimization is the root of all evil."_
 \- Donald Knuth
@@ -135,7 +139,7 @@ Performance should always take second place to function. If it worked at all is 
 ### _"Can a man still be brave if he's afraid?" "That is the only time a man can be brave."_
 \- Bran Stark to Eddard Stark
 
-### Its not about how hard you fall, but about how quickly you get back up.
+### _"Its not about how hard you fall, but about how quickly you get back up."_
 \- AB
 
 ### _"Favor Multitaskers to Unitaskers"_
@@ -149,3 +153,12 @@ Performance should always take second place to function. If it worked at all is 
 
 ### _"Never agree to go on an offshore fishing trip with your investors."_
 \- Frank Hassanabad
+
+#### Deals
+* Time kills all Deals
+* Not just what you sell, but who you sell it to
+* Sales is not a zero-sum game. It is not necesarilly a win-loose relationship. Done correctly, a good deal is a win-win-win for all parties.
+
+#### Zen
+\- There is no right way. There is no wrong way. There is.
+\- There is physics, and there is fairness. Do not confuse these, they are different; one is real, and one is collectively acknowledged as real but isn't really.
