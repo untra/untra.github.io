@@ -42,12 +42,15 @@ This law then suggests the following is true: Composing teams into individual se
 
 Complex software may require multiple teams to effectively manufacture
 
-### Brooks' Law
+### Brook's Law
 The observation in project management that the incremental addition of people to a project eventually yields an individual who makes the project arrive later or have a lower quality because of their addition.
 
 This observation emerges as a result of contributors needing to be onboarded and requiring time to ramp up. Each new worker will need to be integrated into the team, and that the communication overhead results in this process becoming greater for each additional contributor.
 
 In general, smaller teams working on a cohesive project will produce results more efficiently; a team should really be no bigger than 12 individuals, but I enjoy a size of around 4-8 individuals (I've also heard "no more than 2 pizzas to feed the team")
+
+### Eagleson's Law
+Any code of your own that you haven't looked at for six or more months might as well have been written by someone else.
 
 > ## Software Engineering
 
@@ -106,6 +109,26 @@ Cap theorem states that any distributed store of state cannot provide more than 
 * **Partition Tolerance**: The system continues to operate despite a physical split or replication of the storage.
 
 CAP theorem applies to just about every database, document store or at-rest state. This ties into _there is no right way to do software engineering_; the tools you decide to use cannot always be golden hammers, and a good software engineer will know to study the resources and problem.
+
+### Sam Volin Theory of Software Defects
+
+Software defects can fall into categories, of which three are notable and have recognizable smells:
+
+- Bugs of **Mutated State**
+- Bugs of **Shared State**
+- Bugs of **Unstructured State**
+
+Bugs can also not fall into none of these categories.
+Two of these software defects combined can create worse bugs with recognizable symptoms:
+
+- mutated & unstructured -> process crashes and runtime errors
+- unstructured & shared -> data corruption or exposure
+- shared & mutated -> nondeterminism and flakey behavior
+
+Certain software tools, when used incorrectly, tend to produce software defects that can fall into these categories. Recognizing when to use these tools, and to not use tools that may produce these bugs, will ensure you avoid the more disasterous defect classes.
+
+<img src="{{ site.url }}/img/software-defects.png">
+
 
 ### Sorting takes O(n log n) , sorted search takes O (log n)
 This nuance is important to remember. It means that caching and pre-processed data structures can improve algorithm performance when fed clean data. If you have a sorted list or a binary search tree, you can have very efficient log n access if you perform reasonable maintenance to keep your index sorted. This is a phenomena in real life; Becoming organized takes a lot of effort, but staying organized takes far less.
