@@ -28,11 +28,11 @@ I have navigated fulfillment of FIPS 140-2 requirements for a project. I have br
 
 I am currently employed at [_StackHawk_](https://stackhawk.com) 🦅
 
-Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, slack, jira, datadog integrations, began to harness the _the sacred power of the kubectl..._
+Helped build all parts of the company; from the UI and backend, to the documentation and underlying protos and build tools. Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, slack, jira cloud & jira datacenter, datadog integrations. began to harness the power of Kubectl and helm to provision to automate deployment of software to our clusters. Built and defined Argo Jobs to accomplish structured cron jobs and streaming data operations.
 
 ## 🤹 Technical Skills
 
-I currently enjoy working with [_Typescript_](https://www.typescriptlang.org/) and [_Kotlin_](https://kotlinlang.org/). Previously I worked significantly with [_Go_](https://golang.org/) and [_Elixir_](https://elixir-lang.org/) . I also have familiarity and experience working in _Java_, _C_ and _Ruby_ .
+I currently enjoy working with [_Typescript_](https://www.typescriptlang.org/) and [_Kotlin_](https://kotlinlang.org/). Previously I worked significantly with [_Go_](https://golang.org/) and [_Elixir_](https://elixir-lang.org/) . I also have familiarity and experience working in _Java_, _C_, _Python_ and _Ruby_ .
 
 I like my frontends in react, angular, vue-js... just as long as its typescript. 
 I like my backends in kotlin spring boot, or generated from openapi files. 
@@ -40,6 +40,8 @@ I like my notification services stateless.
 I like my operations managed with k8s and monitored with grafana. 
 
 I prefer [_Terraform_](https://terraform.io) to provision replicated environments with IAC. 
+I like [_Kubernetes_](https://terraform.io) to control, monitor and operate containerized software.
+I 
 
 ### Tools of the Trade
 
@@ -63,7 +65,9 @@ I am familiar with both the _Object Oriented Programming_ and _Functional Progra
 
 I also adhere loosely to the design philosophies of _Railway Oriented Programming_ and _Test Driven Development_.
 
-I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies, and advise talking to customers.
+I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies, and advise talking to customers and soliciting constant feedback.
+
+Excellent communication and writing skills are just as necesarry to Software Development as programming ability, if not more so.
 
 > There is no one right way to build software.
 

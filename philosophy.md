@@ -118,12 +118,12 @@ Software defects can fall into categories, of which three are notable and have r
 - Bugs of **Shared State**
 - Bugs of **Unstructured State**
 
-Bugs can also not fall into none of these categories.
+Bugs can also fall into none of these categories.
 Two of these software defects combined can create worse bugs with recognizable symptoms:
 
-- mutated & unstructured -> process crashes and runtime errors
-- unstructured & shared -> data corruption or exposure
-- shared & mutated -> nondeterminism and flakey behavior
+- _mutated & unstructured_ -> process crashes and runtime errors
+- _unstructured & shared_ -> data corruption or exposure
+- _shared & mutated_ -> nondeterminism and flakey behavior
 
 Certain software tools, when used incorrectly, tend to produce software defects that can fall into these categories. Recognizing when to use these tools, and to not use tools that may produce these bugs, will ensure you avoid the more disasterous defect classes.
 
