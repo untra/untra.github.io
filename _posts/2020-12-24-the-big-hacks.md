@@ -41,3 +41,20 @@ Worst case scenario: An attacker with knowledge of processor hardware and vulner
 
 **Meme**: 
 [relevant knowYourMeme](https://knowyourmeme.com/memes/cultures/meltdown-and-spectre)
+
+## Log4Shell
+https://en.wikipedia.org/wiki/Log4Shell
+(CVE-2021-44228)
+
+### What was Log4Shell?
+
+Problem: A fundamental failure to check responses from api calls, and the confusing overlap of java package names and valid ldap addresses
+
+Severity: arbitrary and trivial Remote Code Execution
+
+Worst case scenario: arbitrary RCE means we could've all been pwnd since '13 and never know it.
+
+**The takeaway**: nothing is safe. All of modern software is built on a house of cards. Logging software with fundamentally no reason to communicate outbound has a magic string that performs network calls and remote code execution. This is so fundamentally wrong and obvious, yet endemic to enterprise software. Governments response was to punish researchers and discourage future dissemination of white hat responsible disclosure. A fundamental questioning of where our software comes from and what it's made out of is starting to occur.
+
+**Meme**: 
+[relevant Memes](https://log4jmemes.com/)
