@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Common Software Defects"
+title:  "Bugs of Mutated State"
 date:   2022-03-20 9:00:00
 keywords: [Software Defects, State Mutation, Off By One, This Mutation, Time Money Entropy, Macro Mixins, Functional Programming, Monads]
 promo: "mutatedbugs"
