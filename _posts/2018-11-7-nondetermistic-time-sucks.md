@@ -7,9 +7,17 @@ keywords: [Nondeterminism, Time Suck, Software Engineering, regex, sync folder, 
 
 This is a record of all of the times software became a drag, sucking up time, resources and energy trying to fix a stupid problem or a silly mistake.
 
-These issues have consumed hours of my life, and the solutions to these monkey puzzles were ultimately trivial.
+These issues have consumed hours of my life, and the solutions to these monkey puzzles were ultimately trivial. There is a lot of sarcasm and snark in these stories; I was typically pretty pissed and exhausted when I arrived at conclusions to these challenges.
 
 I keep this record to ensure I never make the same mistakes in software engineering again.
+
+#### The pricing page is it's own page
+
+The hardest part of any meaningful business oriented web application is not the business logic, but the billing and account management tools. Most websites that offer an in-app checkout page have that hosted as it's own _page_. A seperate route and part of the app users exit-from-the-gift-shop through. Thats the correct answer.
+
+But screw conventional wisdom if you're really creative and making bad decisions, why not design the checkout page to be a modal that can be activiated on any page in the app? That way users can update billing information _anywhere_ and _all the time_?
+
+It can only become a problem if those modal makes a bad api call, or has questionable state management, or is broken in any capacity. Because if that's the case then the _entire application becomes unusable._
 
 #### Regexes have performance concerns
 I was using regexes with [Gatling](https://gatling.io/docs/2.3/http/http_check/) in an attempt to check the returned responses of requests across a websocket connection (lesson learned: this is wwaayy too tricky to do with gatling, the tooling for doing exactly this is difficult over websockets, but [artillary](https://artillery.io/) has proven itself to be a high-quality load testing tool.)
