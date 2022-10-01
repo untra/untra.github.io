@@ -61,6 +61,7 @@ reverse: true
 
 # set this to enable google analytics
 ga_id: 'UA-73082006-1'
+ga_tag: 'G-CF68XL0Z3P'
 ga_domain: 'auto'
 
 # off-site navigations under the hosted
