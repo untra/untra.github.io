@@ -20,11 +20,18 @@
   color: #eee;
   &.blockquote {
     background-color: #333;
-    content: "But there a lot of wrong ways";
   }
   &[dark-toggle] {
     content: "Day Mode"
   }
+  span.bright {
+    color: #333;
+    text-align: end;
+  }
+}
+
+span.bright {
+  color: #eee;
 }
 
 [dark-toggle] {

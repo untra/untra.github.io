@@ -28,7 +28,11 @@ I have navigated fulfillment of FIPS 140-2 requirements for a project. I have br
 
 I am currently employed at [_StackHawk_](https://stackhawk.com) 🦅
 
-Helped build all parts of the company; from the UI and backend, to the documentation and underlying protos and build tools. Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, slack, jira cloud & jira datacenter, datadog integrations. began to harness the power of Kubectl and helm to provision to automate deployment of software to our clusters. Built and defined Argo Jobs to accomplish structured cron jobs and streaming data operations.
+Helped build all parts of the company; from the UI and backend, to the documentation and underlying protos and build tools. Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, slack, jira cloud & automated Api Documentation with OpenApi specs, readme and postman. Stripe integration. Began to harness the power of Kubectl and helm to provision to automate deployment of software to our clusters. Built and defined Argo Jobs to accomplish structured cron jobs and streaming data operations.
+
+Lots of Documentation. Lots of functional programming. Build automation. Api Documentation automation. Separating CI from CD.
+
+Developing software in adversarial conditions. Windows installer.
 
 ## 🤹 Technical Skills
 
@@ -63,13 +67,23 @@ I
 I am familiar with both the _Object Oriented Programming_ and _Functional Programming_
  software design philosophies. I have strong opinions about both of these, ask me about them.
 
-I also adhere loosely to the design philosophies of _Railway Oriented Programming_ and _Test Driven Development_.
+ I also adhere loosely to the design philosophies of _Railway Oriented Programming_ and _Test Driven Development_.
+
+I have worked with _gitflow_ and _trunk based_ software branching models. Both strategies have advantages and disadvantages.
+  The key to fast and safe software development is to establish a _CICD_ pipeline, and aim to separate your _CI_ from your _CD_.
 
 I enjoy working with the _Scrum_ and _Kanban_ iterative development philosophies, and advise talking to customers and soliciting constant feedback.
+  
+Engineers work with product and design to implement and structure software.
+  Product works with engineering, marketing and customer support to direct the roadmap.
+    Design team works with engineering and marketing teams to coordinate a brand and messaging.
 
-Excellent communication and writing skills are just as necesarry to Software Development as programming ability, if not more so.
+Excellent communication and writing skills are just as necessary to Software Development as programming ability, if not more so.
+  If the software has flaws, customers will go to your documentation. if your documentation sucks, customers will go to your competitors website.
 
-> There is no one right way to build software.
+<blockquote>
+<p>There is no one right way to build software <span class="bright">yet there plenty of wrong ways</span></p>
+</blockquote>
 
 ## 🛠️ Employment
 *  **Fullstack Engineer**, StackHawk (2020 - present)
@@ -87,6 +101,8 @@ Excellent communication and writing skills are just as necesarry to Software Dev
 ## 🏨 Conferences
 * (attended) LambdaConf - June 2018, Boulder CO
 * (attended) ElixirConf - September 2017, Bellevue WA
+* (represented) RSA - June 2022, San Francisco
+* (represented) RSA - September 2023, Devopsdays Chicago
 
 ## 👨‍💻 Hackathons
 * (observed) EthDenver Hackathon - February 2018, Denver CO
