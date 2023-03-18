@@ -2,7 +2,7 @@
 layout: post
 title:  "Nondeterministic Time Sucks"
 date:   2018-11-22 17:00:00
-keywords: [Nondeterminism, Time Suck, Software Engineering, regex, sync folder, vagarant]
+keywords: [Nondeterminism, Time Suck, Software Engineering, regex, sync folder, vagrant, pricing]
 ---
 
 This is a record of all of the times software became a drag, sucking up time, resources and energy trying to fix a stupid problem or a silly mistake.
@@ -11,11 +11,26 @@ These issues have consumed hours of my life, and the solutions to these monkey p
 
 I keep this record to ensure I never make the same mistakes in software engineering again.
 
+#### UTF-8 is not a content encoding
+
+HTTP Headers for the most part should be respected. `Content-Encoding: UTF-8` is not a legal content type, and can cause some web server frameworks to point to make the wrong conclusion handling the response and report 415 `Content-Type: application/json;charset=UTF-8`, [which is misleading fo real](https://stackoverflow.com/questions/9254891/what-does-content-type-application-json-charset-utf-8-really-mean).
+
+
+#### Opt-in Tutorials and onboarding
+
+Welcoming new users to a multi-user product is exceptionally challenging. Giving them a marketing persona guided tour of how to use your software for maximum success is the best option, but where do you enforce it? on every new user logging into your tool? Does that include samlIdp users? invited users?
+
+A good onboarding flow is something your support should guide new users to, and measure.
+Marketing is going to want product to make tweaks and changes to onboarding flows, and close them for maintenance.
+Put all your metric tracking and user engagement tools in place while walking the user through our application, in the designated flow that is _not considered at login_.
+
+new user onboarding should be slim and minimal, and available just at the entrance to application login, but not _the entrance_ to the application.
+
 #### The pricing page is it's own page
 
-The hardest part of any meaningful business oriented web application is not the business logic, but the billing and account management tools. Most websites that offer an in-app checkout page have that hosted as it's own _page_. A seperate route and part of the app users exit-from-the-gift-shop through. Thats the correct answer.
+The hardest part of any meaningful business oriented web application is not the business logic, but the billing and account management tools. Most websites that offer an in-app checkout page have that hosted as it's own _page_. A separate route and part of the app users exit-from-the-gift-shop through. Thats the correct answer.
 
-But screw conventional wisdom if you're really creative and making bad decisions, why not design the checkout page to be a modal that can be activiated on any page in the app? That way users can update billing information _anywhere_ and _all the time_?
+But screw conventional wisdom if you're really creative and making bad decisions, why not design the checkout page to be a modal that can be activated on any page in the app? That way users can update billing information _anywhere_ and _all the time_?
 
 It can only become a problem if those modal makes a bad api call, or has questionable state management, or is broken in any capacity. Because if that's the case then the _entire application becomes unusable._
 

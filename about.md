@@ -44,8 +44,7 @@ I like my notification services stateless.
 I like my operations managed with k8s and monitored with grafana. 
 
 I prefer [_Terraform_](https://terraform.io) to provision replicated environments with IAC. 
-I like [_Kubernetes_](https://terraform.io) to control, monitor and operate containerized software.
-I 
+I like [_Kubernetes_](https://kubernetes.io) to control, monitor and operate containerized software.
 
 ### Tools of the Trade
 
@@ -99,10 +98,12 @@ Excellent communication and writing skills are just as necessary to Software Dev
 * **Overland High School** (2009-2012)
 
 ## 🏨 Conferences
+* (vendored) RSA - April 2023, San Francisco CA
+* (vendored) DevSecOpsCon - January 2023, Seattle WA
+* (vendored) DevopsDays - April 2022, Chicago IL
+* (vendored) RSA - April 2022, San Francisco CA
 * (attended) LambdaConf - June 2018, Boulder CO
 * (attended) ElixirConf - September 2017, Bellevue WA
-* (represented) RSA - June 2022, San Francisco
-* (represented) RSA - September 2023, Devopsdays Chicago
 
 ## 👨‍💻 Hackathons
 * (observed) EthDenver Hackathon - February 2018, Denver CO
