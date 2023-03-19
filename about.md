@@ -81,7 +81,7 @@ Excellent communication and writing skills are just as necessary to Software Dev
   If the software has flaws, customers will go to your documentation. if your documentation sucks, customers will go to your competitors website.
 
 <blockquote>
-<p>There is no one right way to build software <span class="bright">yet there plenty of wrong ways</span></p>
+<p>There is no one right way to build software <span class="bright">but there are  plenty of wrong ways</span></p>
 </blockquote>
 
 ## 🛠️ Employment
