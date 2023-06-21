@@ -1,0 +1,38 @@
+app:
+  applicationId: ${APP_ID:373c273f-29a0-4406-bc3f-b4059880c8d3}
+  env: ${APP_ENV:Development}
+  host: ${APP_HOST:https://localhost:9000}
+
+  excludePaths:
+    - "/logout"
+  antiCsrfParam: "_csrf"
+  authentication:
+    loggedInIndicator: "\\QSign Out\\E"
+    loggedOutIndicator: ".*Location:.*/login.*"
+    usernamePassword:
+      type: FORM
+      loginPath: /login
+      loginPagePath: /login
+      usernameField: username
+      passwordField: password
+      scanUsername: "user"
+      scanPassword: "password"
+    # cookieAuthorization:
+    #   cookieNames:
+    #     - "JSESSIONID"
+    tokenAuthorization:
+      value: Authorization
+      type: HEADER
+    testPath:
+      path: /search
+      success: "HTTP.*200.*"
+  redact:
+    headers:
+      - Cookie
+    values:
+      - ${SECRET_VAR:Referer}
+hawk:
+  spider:
+    maxDurationMinutes: 5
+  failureThreshold: HIGH
+
