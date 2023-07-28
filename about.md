@@ -78,7 +78,7 @@ Engineers work with product and design to implement and structure software.
     Design team works with engineering and marketing teams to coordinate a brand and messaging.
 
 Excellent communication and writing skills are just as necessary to Software Development as programming ability, if not more so.
-  If the software has flaws, customers will go to your documentation. if your documentation sucks, customers will go to your competitors website.
+  If the software has flaws, customers will go to your documentation. If your documentation sucks, customers will go to your competitors website.
 
 <blockquote>
 <p>There is no one right way to build software <span class="bright">but there are  plenty of wrong ways</span></p>

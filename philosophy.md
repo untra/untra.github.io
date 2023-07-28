@@ -18,11 +18,19 @@ The observation that the number of transistors in integrated circuits would doub
 
 Moore's law has significantly declined. While computers have gotten exponentially faster over the years, the serious improvements in computing will now have to be made by better and more advanced software.
 
+It is now widely agreed Moore's law has ended as transistor size has approached atomic scale of 14 and 8nm transistors, and now cpu design and architecture are more important to software operation.
+
 ### Eroom's Law
 
 The observation that cost advances in biotechnology and drug discovery has doubled approximately every nine years. The high fixed cost of serious pharmaceutical drug discovery has increased significantly. This phenomena was identified in the 1980's, and is named as the reciprocal to Moore's law. The causes of Eroom's Law are multiple (regulation, extraneous resources, no low-hanging fruit, etc.) but, like Moore's law, is exponential in its force.
 
 Exponential Forces Like Moore's and Eroom's significantly influence the shape of any market. Be cognizant of these forces, and they can be utilized effectively or avoided entirely.
+
+### Atwood's Law
+
+Any application that can be written in Javascript, will eventually be written in javascript.
+
+This is probably true. It can be easily refuted but it's not.
 
 ### Law of Diminishing Returns
 
@@ -68,11 +76,17 @@ The S in SOLID states the importance of classes and modules remaining focused in
 
 Complex software must be built on trust, and code with additional side-effects and trapdoors will not be reused. Code that is explicit, simple, and responsible for explicitly doing that one simple thing will be trusted and reused.
 
+Small terse functions that take few inputs and do one thing correctly and deterministically will make for reliable industrial strength software. Make your team proud and the company successful with reliable software.
+
 ### Software Engineering is a Team Sport
 Do not forget this; writing software means collaboration and communication. Like all great human works, its creation is rarely done by one tenacious individual in a long sitting. The myth of the lone programmer hacking out legendary code through the sheer autistic will of his own programming expertise is exactly that; a myth. Software is built by at least one team of people, and great software is written by a team of friends.
 
+Everyone should feel empowered to improve and refine the application.
+
 ### Assume Reasonable Defaults
 When you go to a restaurant, are you typically asked if you would like forks and knives? Customization and configuration is a necessity for any software, and for most of our daily life experiences, but some things are just _expected_.
+
+If you go out for sushi, you ask for a fork and knife because you are _expected_ to know how to use chopsticks.
 
 Understand what your customers expect, and ensure the default experience and configuration is everything they will expect as well. Customization fatigue is a threat to any product made too configurable.
 
