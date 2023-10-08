@@ -28,11 +28,9 @@ I have navigated fulfillment of FIPS 140-2 requirements for a project. I have br
 
 I am currently employed at [_StackHawk_](https://stackhawk.com) 🦅
 
-Helped build all parts of the company; from the UI and backend, to the documentation and underlying protos and build tools. Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, slack, jira cloud & automated Api Documentation with OpenApi specs, readme and postman. Stripe integration. Began to harness the power of Kubectl and helm to provision to automate deployment of software to our clusters. Built and defined Argo Jobs to accomplish structured cron jobs and streaming data operations.
+Helped build all parts of the company; from the UI and backend, to the documentation and underlying protos and build tools. Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, employed custom react state library used in production for years slack, jira cloud & automated Api Documentation with OpenApi specs, readme and postman. Stripe integration. Began to harness the power of Kubectl and helm to provision to automate deployment of software to our clusters. Built and defined Argo Jobs to accomplish structured cron tasks and streaming data operations.
 
-Lots of Documentation. Lots of functional programming. Build automation. Api Documentation automation. Separating CI from CD.
-
-Developing software in adversarial conditions. Windows installer.
+Lots of documentation. Lots of functional programming. Build automation. Api Documentation automation. Separating CI from CD. Automating complex builds of deployments of software that eats software. Developing software in adversarial conditions. Creating a windows installer for a kotlin application with embedded java runtime.
 
 ## 🤹 Technical Skills
 
