@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Videogames Beaten
-published: False
+title:  Videogames Defeated
+published: True
 date:   2019-05-27 17:00:00
 keywords: [Videogames]
 desc: Videogames I have beaten or am in the process of really beating
@@ -28,7 +28,7 @@ I like videogames. These are the games I have beaten, with any details.
 
 * [x] harry potter 1 (rpg)
 * [x] harry potter 2 (rpg)
-* [ ] speedy gonzalez
+* [x] speedy gonzalez
 
 
 ### gba
@@ -50,7 +50,7 @@ I like videogames. These are the games I have beaten, with any details.
 
 ### classic era (98-xp) (1998-2006)
 * [x] Dungeon Keeper
-*  [x] Cossacks European Wars
+* [x] Cossacks European Wars
 * [x] Diablo 2 (as necromancer, amazon)
 * [x] Harry Potter 1
 * [x] Harry Potter 2
@@ -92,7 +92,7 @@ I like videogames. These are the games I have beaten, with any details.
 * [x] Psychonauts 2
 * [x] Far Cry 6
 * [ ] Red Dead Redemption 2 (ready)
-* [ ] Elden Ring (as samurai) (modded)
+* [ ] Elden Ring (as samurai) (ongoing) (modded)
 * [ ] Factorio SA (ongoing)
 * [ ] Hades 2 (ongoing)
 * [x] Pizza Tower
