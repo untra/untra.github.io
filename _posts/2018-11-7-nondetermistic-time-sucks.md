@@ -7,9 +7,38 @@ keywords: [Nondeterminism, Time Suck, Software Engineering, regex, sync folder, 
 
 This is a record of all of the times software became a drag, sucking up time, resources and energy trying to fix a stupid problem or a silly mistake.
 
+Some of these are personal mistakes in development. Some of these incidents made it to production. Some of these I experienced and triaged, but never made the mistake but felt the _pain_. And they became learning experiences.
+
 These issues have consumed hours of my life, and the solutions to these monkey puzzles were ultimately trivial. There is a lot of sarcasm and snark in these stories; I was typically pretty pissed and exhausted when I arrived at conclusions to these challenges.
 
 I keep this record to ensure I never make the same mistakes in software engineering again.
+
+#### Dependencies can be overwritten from their package manager distributions
+
+If a specific piece of software is found to have a 10/10 vulnerability with a simple fix, it would be advantageous for the publishers to correct their mistake and ecosystem leaders to encourage overwriting existing published downstream libraries that have become fissile.
+
+But if your business is to test for vulnerabilities of software that have become flawed, you will want the existing copies of the sensitive libraries available for use. It's kinda like how the CDC keeps copies of deadly viruses like polio or plague, y'know, in case. Well a cybersecurity company that builds a solution and tests against 10/10 spicy remote code injection will wanna `jndi` your `ldap` all day.
+
+Java jar packages downloaded through gradle are subject to adjustment we have learned, and all critical transitive dependencies must be explicitly cached and preserved.
+
+#### Clean gloves when uploading secret values; trailing whitespace in saved secrets makes secrets not work
+
+Passwords, Credentials, Certificates, are all secrets that can be effectively loaded into a secret store system of your choice, like say, parameter store.
+But any extraneous whitespace left when manually loading in secrets into the store can affect its ability to operate. This sounds obvious, but I've even seen both my juniors and superiors make this mistake, and I've almost done it myself because its a dumb easy mistake to make. Some parts of this job require a precise clean room, and secret storage is one of them.
+
+#### Unit test for your critical path default values
+
+If you choose falsey defaults, default values are intuitive. But if you have nullable or truthy defaults, you should have unit tests those nonstandard default objects. Otherwise the correct "default" value quickly gets lost.
+
+Do your team a favor and choose a conventions standard of falsey defaults for all properties. Opt-in for everything, opt-out of nothing.
+
+#### Database `ALTER TABLE` in production should be made a step by step process
+
+Altering a table to add a column, with a default value, and a non-nullable constraint, is three separate steps. If you make them in one transaction, it will lock the entire table up in a series of rows for access. This will lock up connections until the migration completes.
+
+Which, when tested in a preprod environment, might look just fine because the preprod dataset is smaller. But in production, it will take longer, especially if migration takes longer than a kube defined readiness probe of 60 or so seconds.
+
+The solution is to make each of these as separate transactions, which will separately modify the table, and then each row, and then the table again, and will not lock up the entire table. When structuring database migrations in production, take fewer, smaller steps.
 
 #### UTF-8 is not a content encoding
 
@@ -65,7 +94,9 @@ but understand that delicate OS folders that are synced may cause performance pr
 #### HTTP headers will need to approved by CORS
 * https://enable-cors.org/server_nginx.html
 
-I'll edit in this story another time...
+CORS is defined at the server level to specify which clients are allowed to call inline scripts, and browsers are responsible for enforcing it.
+
+Let that one marinate.
 
 #### Python fails to compile due to mixed/missing extra tab/space
 * see also: https://unspecified.wordpress.com/2011/10/18/why-pythons-whitespace-rule-is-right/
