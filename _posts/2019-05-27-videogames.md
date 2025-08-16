@@ -11,8 +11,6 @@ desc: Videogames I have beaten or am in the process of really beating
 
 I like videogames. These are the games I have beaten, with any details.
 
-
-
 ## Nintendo Consoles
 
 ### pokemon
@@ -84,7 +82,7 @@ I like videogames. These are the games I have beaten, with any details.
 * [x] TF2 (scout main)
 * [x] Skyrim (modded) (rpg)
 * [x] Factorio (vanilla, RR)
-* [ ] Fallout New Vegas (ready) (modded) (rpg)
+* [ ] Fallout New Vegas (remaster someday)
 
 
 
@@ -93,15 +91,15 @@ I like videogames. These are the games I have beaten, with any details.
 * [x] Far Cry 6
 * [ ] Red Dead Redemption 2 (ready)
 * [ ] Elden Ring (as samurai) (ongoing) (modded)
-* [ ] Factorio SA (ongoing)
-* [ ] Hades 2 (ongoing)
+* [X] Factorio SA
+* [X] Hades 2
 * [x] Pizza Tower
 * [x] Stardew Valley (modded)
 
 ## Other Console
 
-* [ ] Mrs. Pacman: 
-* [ ] Centipede: 
+* [x] Mrs. Pacman: 
+* [x] Centipede: 
 * [x] Smash Bros (peach, duck hunt)
 * [x] Halo 2 (with friends)
 [x] Metroid 3
