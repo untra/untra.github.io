@@ -44,6 +44,8 @@ keywords:
   - Golang
   - Typescript
   - Elixir
+  - Kotlin
+  - Rust
   - Badass
   - quinoa
   - Computer Science
@@ -56,6 +58,10 @@ keywords:
   - Fullstack
   - Software Engineering
   - super science
+  - web development
+  - cybersecurity
+  - Application Security
+  - infosec
 
 reverse: true
 
@@ -66,7 +72,7 @@ ga_domain: 'auto'
 
 # off-site navigations under the hosted
 navitems:
-  - [ "🌌Factorio Galaxy", "https://galaxy.untra.io/planets"]
+  - [ "🌌Factorio Galaxy", "http://galaxy.untra.io/planets"]
   - [ "🔁Naiveasync", "https://naiveasync.untra.io/"]
   - [ "🍱Naivetable", "https://naivetable.untra.io/"]
   - [ "💬Jekyll Polyglot", "https://polyglot.untra.io/"]
