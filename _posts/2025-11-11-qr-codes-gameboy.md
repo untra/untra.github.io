@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Dynamic QR Code generation on the Gameboy"
-date:   2025-01-11 9:00:00
-keywords: [Dynamic QR Code generation, Gameboy, z80, denu wave, gamefreak, rgbds, assembly, ai, llm, codex, claude, gemini]
+title:  "QR Codes on the Gameboy"
+date:   2025-11-11 9:00:00
+keywords: [Dynamic, QR Code generation, Gameboy, z80, denu wave, gamefreak, rgbds, assembly, ai, llm, codex, claude, gemini]
 promo: "gameboyqraialgorithms"
 desc: "Vibe Coding dynamic QR Code algorithm implementation on the Gameboy"
 ---

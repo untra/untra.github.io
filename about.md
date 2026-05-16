@@ -22,15 +22,17 @@ Good software is not conceived, it is developed over time, preferably by a team 
 
 I am a professional Software Developer, currently residing in **Denver, Colorado**. I am passionate about mathematics, functional programming, software engineering, polyglot programming, network security, cryptography, and developer operations.
 
-I was previously employed at [_LogRhythm_](https://logrhythm.com/) 💠
+I was employed at [_LogRhythm_](https://logrhythm.com/) 💠
 
 I have navigated fulfillment of FIPS 140-2 requirements for a project. I have broken monoliths into microservices. I have shoveled legacy code into tested & automated nightly builds and all of it again in <button dark-toggle aria-hidden>Night mode</button>. My tenure at LogRhythm taught me the importance of customer collaboration, automation of operations, and open technical perspectives. Those experiences taught me to recognize simple solutions and how to mentally begin to address chicken and egg problems.
 
-I am currently employed at [_StackHawk_](https://stackhawk.com) 🦅
+I was previously employed at [_StackHawk_](https://stackhawk.com) 🦅
 
-Helped build all parts of the company; from the UI and backend, to the documentation and underlying protos and build tools. Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, employed custom react state library used in production for years slack, jira cloud & automated Api Documentation with OpenApi specs, readme and postman. Stripe integration. Began to harness the power of Kubectl and helm to provision to automate deployment of software to our clusters. Built and defined Argo Jobs to accomplish structured cron tasks and streaming data operations.
+Employee #3 Helped build all parts of the company; from the UI and backend, to the documentation and underlying protos and build tools. Wrote terraform to provision replicated codebuild jobs across striped environments, expanded upon and helped structure the initial UI, employed custom react state library used in production for years slack, jira cloud & automated Api Documentation with OpenApi specs, readme and postman. Stripe integration. Began to harness the power of Kubectl and helm to provision to automate deployment of software to our clusters. Built and defined Argo Jobs to accomplish structured cron tasks and streaming data operations.
 
-Lots of documentation. Lots of functional programming. Build automation. Api Documentation automation. Separating CI from CD. Automating complex builds of deployments of software that eats software. Developing software in adversarial conditions. Creating a windows installer for a kotlin application with embedded java runtime.
+Lots of documentation. Lots of functional programming. Build automation. API Documentation automation. Separating CI from CD. Automating complex builds of deployments of software that eats software. Developing software in adversarial conditions. Creating a windows installer for a kotlin application with embedded java runtime. Was able to influence a company culture of collaboration, automation and accountability.
+
+Was an incredibly rewarding, informative and challenging opportunity to help take a company from 0 and no customers to over 200 paying customers, from seed to A to B to AI.
 
 ## 🤹 Technical Skills
 
@@ -83,7 +85,8 @@ Excellent communication and writing skills are just as necessary to Software Dev
 </blockquote>
 
 ## 🛠️ Employment
-*  **Fullstack Engineer**, StackHawk (2020 - present)
+*  **Senior Fullstack Engineer**, ___ (2026)
+*  **Fullstack Engineer**, StackHawk (2020 - 2025)
 *  **Junior Fullstack Engineer**, StackHawk (2019 - 2020)
 *  **Software Engineer**, LogRhythm (2016 - 2019)
 *  **Software Engineering Intern**, LogRhythm (2015-2016)
@@ -96,6 +99,7 @@ Excellent communication and writing skills are just as necessary to Software Dev
 * **Overland High School** (2009-2012)
 
 ## 🏨 Conferences
+* (vendored) Snowfroc - April 2026, Denver CO
 * (vendored) RSA - April 2023, San Francisco CA
 * (vendored) DevSecOpsCon - January 2023, Seattle WA
 * (vendored) DevopsDays - April 2022, Chicago IL
@@ -114,3 +118,4 @@ Excellent communication and writing skills are just as necessary to Software Dev
 * [Jekyll Polyglot](https://github.com/untra/polyglot)
 * [Naivetable](https://github.com/untra/naivetable)
 * [Naiveasync](https://github.com/untra/naiveasync)
+* [Operator](https://github.com/untra/operator)
