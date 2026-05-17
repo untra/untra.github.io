@@ -72,6 +72,7 @@ ga_domain: 'auto'
 
 # off-site navigations under the hosted
 navitems:
+  - [ "🎳Bowling", "https://bowling.untra.io"]
   - [ "🌌Factorio Galaxy", "http://galaxy.untra.io/planets"]
   - [ "🔁Naiveasync", "https://naiveasync.untra.io/"]
   - [ "🍱Naivetable", "https://naivetable.untra.io/"]
