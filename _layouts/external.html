@@ -1,0 +1,17 @@
+---
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to {{ page.redirect_to }}</title>
+  <link rel="canonical" href="{{ page.redirect_to }}">
+  <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+  <meta name="robots" content="noindex">
+  <script>location.replace({{ page.redirect_to | jsonify }});</script>
+</head>
+<body>
+  <p>Redirecting to <a href="{{ page.redirect_to }}">{{ page.redirect_to }}</a>…</p>
+</body>
+</html>
