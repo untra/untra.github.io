@@ -14,13 +14,12 @@ lastmod: 2014-07-07T16:57:30+05:30
 	  	{% if post.redirect_to %}
 	  		<h2><a href="{{ post.redirect_to }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a></h2>
 	  		<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-	  		<small class="external-host"><a href="{{ post.redirect_to }}" target="_blank" rel="noopener noreferrer">↗ {{ post.redirect_to }}</a></small>
 	  		{% if post.promo %}
 	  			<a href="{{ post.redirect_to }}" target="_blank" rel="noopener noreferrer">
 	  				<img src="{{ site.url }}/img/promo/{{ post.promo }}.png" frameborder="0" style="width:100%;"></img>
 	  			</a>
 	  		{% endif %}
-	  		{% if post.desc %}<p>{{ post.desc }}</p>{% endif %}
+	  		{% if post.desc %}<p>{{ post.desc }}<small class="external-host"><a href="{{ post.redirect_to }}" target="_blank" rel="noopener noreferrer">{{ post.redirect_to }}↗</a></small></p>{% endif %}
 	  	{% else %}
 	  		<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
 	  		<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
