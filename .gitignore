@@ -41,3 +41,10 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+# Generated preview images (built by optimizeimages.sh in CI)
+img/promo/preview/
+
+# Bundler
+.bundle
+vendor/bundle
